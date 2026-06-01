@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gitā Jñāna - Premium Bhagavad Gitā Vedāntic Explorer</title>
+  <meta name="description" content="Explore the eternal wisdom of the Bhagavad Gita with Gitā Jñāna. Compare 7 authoritative translations and 16 profound Vedāntic commentaries including Advaita, Vishishtadvaita, and Dvaita philosophies.">
+  
+  <!-- Favicon placeholder or styling -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕉️</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <!-- Sacred Glow Overlay (decorative) -->
+  <div class="sacred-glow-aura" id="sacredAura"></div>
+
+  <!-- Main Container -->
+  <div class="app-container">
+    
+    <!-- Top Sacred Header Bar -->
+    <header class="app-header" id="mainHeader">
+      <div class="header-branding">
+        <span class="sacred-symbol">🕉️</span>
+        <div class="title-group">
+          <h1 class="app-main-title" id="appMainTitle">Gitā Jñāna</h1>
+          <span class="subtitle font-cinzel">गीता ज्ञान • Vedāntic Explorer</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <!-- Search bar -->
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search shloka, roots, words..." aria-label="Search scripture">
+          <button id="searchButton" type="button" aria-label="Execute search">🔍</button>
+        </div>
+        <!-- Theme Toggle Button -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle visual theme">
+          <span class="theme-icon" id="themeIcon">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      
+      <!-- Left Sidebar: Chapter List & Verse Grid -->
+      <aside class="sidebar" id="sidebarSection" aria-label="Chapter and Verse Navigator">
+        <!-- Navigation Header -->
+        <div class="sidebar-header">
+          <h2 class="sidebar-title font-cinzel" id="sidebarNavTitle">Chapters & Verses</h2>
+        </div>
+        
+        <!-- Chapters Dropdown/Selector -->
+        <div class="chapter-selector-container">
+          <label for="chapterSelect" class="visually-hidden">Select Chapter</label>
+          <select id="chapterSelect" class="chapter-dropdown">
+            <!-- Programmatically populated -->
+          </select>
+        </div>
+
+        <!-- Chapter Summary Card -->
+        <div class="chapter-summary-card" id="chapterSummaryCard">
+          <h3 class="summary-card-title font-cinzel" id="summaryChapterName">Chapter Summary</h3>
+          <p class="summary-card-text font-lora" id="summaryChapterText">Select a chapter to begin exploring its wisdom.</p>
+        </div>
+
+        <!-- Verse Grid Panel -->
+        <div class="verse-grid-container">
+          <h3 class="verse-grid-title font-cinzel" id="verseGridTitle">Select Verse</h3>
+          <div class="verse-grid" id="verseGrid" role="group" aria-label="Verse selection buttons">
+            <!-- Programmatically populated buttons -->
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Panel: The Scripture Reader -->
+      <main class="main-content" id="mainContentSection" aria-label="Scripture Text and Commentaries">
+        
+        <!-- Verse Coordinate Banner -->
+        <div class="verse-banner" id="verseBanner">
+          <span class="verse-coordinates font-cinzel" id="currentCoordinates">Chapter 1 • Verse 1</span>
+          <div class="banner-actions">
+            <button id="copyShareBtn" class="share-btn" aria-label="Copy verse for social sharing">📋 Copy to Share</button>
+          </div>
+        </div>
+
+        <!-- Shloka Display Area -->
+        <section class="shloka-section" id="shlokaSection" aria-labelledby="currentCoordinates">
+          <div class="sanskrit-card">
+            <h3 class="shloka-heading font-cinzel">Sanskrit Shloka</h3>
+            <p class="sanskrit-text font-rozha" id="sanskritText">धृतराष्ट्र उवाच । धर्मक्षेत्रे कुरुक्षेत्रे...</p>
+            <p class="transliteration-text font-lora" id="transliterationText">dhṛtarāṣṭra uvāca | dharmakṣetre...</p>
+          </div>
+        </section>
+
+        <!-- Tabbed Container for Translations, Word Meaning, Commentaries -->
+        <div class="tabs-container" id="tabsContainer">
+          
+          <!-- Tab Headers -->
+          <div class="tab-headers-bar" role="tablist">
+            <button class="tab-header-btn active" id="tabHeaderTranslations" role="tab" aria-selected="true" aria-controls="tabContentTranslations">
+              Translations
+            </button>
+            <button class="tab-header-btn" id="tabHeaderWordByWord" role="tab" aria-selected="false" aria-controls="tabContentWordByWord">
+              Word Analysis
+            </button>
+            <button class="tab-header-btn" id="tabHeaderCommentaries" role="tab" aria-selected="false" aria-controls="tabContentCommentaries">
+              Vedāntic Commentaries
+            </button>
+            <button class="tab-header-btn" id="tabHeaderFaqs" role="tab" aria-selected="false" aria-controls="tabContentFaqs">
+              Scriptural FAQs
+            </button>
+          </div>
+
+          <!-- Tab Content Panel 1: Translations -->
+          <div class="tab-content-panel active" id="tabContentTranslations" role="tabpanel" aria-labelledby="tabHeaderTranslations">
+            <!-- Translator Selection Controls -->
+            <div class="translator-selector-bar">
+              <span class="select-label font-cinzel">Compare Translations:</span>
+              <div class="translator-checkboxes" id="translatorCheckboxes">
+                <!-- Programmatically populated checkboxes -->
+              </div>
+            </div>
+            
+            <!-- Comparison Grid -->
+            <div class="translation-comparison-grid" id="translationComparisonGrid">
+              <!-- Dynamically populated translator cards -->
+            </div>
+          </div>
+
+          <!-- Tab Content Panel 2: Word By Word Breakdown -->
+          <div class="tab-content-panel" id="tabContentWordByWord" role="tabpanel" aria-labelledby="tabHeaderWordByWord">
+            <h3 class="panel-section-title font-cinzel">Grammatical and Word Meanings Breakdown</h3>
+            <div class="word-breakdown-grid" id="wordBreakdownGrid">
+              <!-- Dynamically populated word analysis cards -->
+            </div>
+          </div>
+
+          <!-- Tab Content Panel 3: Commentaries -->
+          <div class="tab-content-panel" id="tabContentCommentaries" role="tabpanel" aria-labelledby="tabHeaderCommentaries">
+            <!-- Commentary Selection Bar -->
+            <div class="commentary-selector-bar">
+              <label for="commentatorSelect" class="select-label font-cinzel">Select Vedāntic Commentator:</label>
+              <select id="commentatorSelect" class="commentator-dropdown">
+                <!-- Programmatically populated with Advaita, Dvaita, Vishishtadvaita labels -->
+              </select>
+            </div>
+            
+            <!-- Commentary Body Card -->
+            <div class="commentary-card">
+              <div class="commentary-card-header">
+                <span class="commentary-author-name font-cinzel" id="commentaryAuthorName">Sri Shankaracharya</span>
+                <span class="commentary-language-tag" id="commentaryLangTag">Sanskrit</span>
+              </div>
+              <div class="commentary-body-text font-lora" id="commentaryBodyText">
+                Commentary content will load here.
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content Panel 4: FAQs -->
+          <div class="tab-content-panel" id="tabContentFaqs" role="tabpanel" aria-labelledby="tabHeaderFaqs">
+            <h3 class="panel-section-title font-cinzel">Theological & Philosophical Q&A</h3>
+            <div class="faqs-list" id="faqsList">
+              <!-- Dynamically populated FAQ cards -->
+            </div>
+          </div>
+
+        </div>
+
+      </main>
+
+    </div>
+
+    <!-- Sacred Footer -->
+    <footer class="app-footer" id="mainFooter">
+      <p class="footer-blurb font-cinzel">ॐ तत्सदिति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे</p>
+      <p class="copyright-info">Gitā Jñāna Explorer • Dedicated to Vedāntic Self-Realization</p>
+    </footer>
+
+  </div>
+
+  <!-- Search Overlay Modal -->
+  <div id="searchModal" class="search-overlay" aria-hidden="true" role="dialog" aria-labelledby="searchModalTitle">
+    <div class="search-modal-card">
+      <div class="search-modal-header">
+        <h2 id="searchModalTitle" class="font-cinzel">Search Results</h2>
+        <button id="closeSearchBtn" class="close-modal-btn" aria-label="Close search overlay">✕</button>
+      </div>
+      <div class="search-results-body" id="searchResultsBody">
+        <!-- Results list -->
+      </div>
+    </div>
+  </div>
+
+  <!-- App Logic script -->
+  <script src="app.js"></script>
+</body>
+</html>
