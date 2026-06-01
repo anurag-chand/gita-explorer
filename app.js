@@ -14,7 +14,8 @@ const state = {
   activeTab: "tabHeaderTranslations",
   theme: "dark",
   globalSearchCache: [], // Array of all 701 verses for instantaneous search
-  searchCacheLoaded: false
+  searchCacheLoaded: false,
+  fontSizeScale: 1.0
 };
 
 // Author-to-School Map (Vedantic Context)
@@ -52,6 +53,8 @@ const DOM = {
   verseGrid: document.getElementById("verseGrid"),
   currentCoordinates: document.getElementById("currentCoordinates"),
   copyShareBtn: document.getElementById("copyShareBtn"),
+  decFontBtn: document.getElementById("decFontBtn"),
+  incFontBtn: document.getElementById("incFontBtn"),
   sanskritText: document.getElementById("sanskritText"),
   transliterationText: document.getElementById("transliterationText"),
   translatorCheckboxes: document.getElementById("translatorCheckboxes"),
@@ -114,6 +117,10 @@ function setupEventListeners() {
   
   // Copy to Share button click
   DOM.copyShareBtn.addEventListener("click", copyVerseForSharing);
+  
+  // Font Size adjustment buttons
+  DOM.decFontBtn.addEventListener("click", () => adjustFontSize(-1));
+  DOM.incFontBtn.addEventListener("click", () => adjustFontSize(1));
   
   // Search actions
   DOM.searchButton.addEventListener("click", performSearch);
@@ -249,6 +256,7 @@ function renderVerseDetails() {
   // 1. Sanskrit and Transliteration
   DOM.sanskritText.textContent = verse.sanskrit_shloka;
   DOM.transliterationText.textContent = verse.transliteration;
+  updateFontSize();
   
   // 2. Tab: Translations Tab Rendering
   renderTranslationsTab(verse);
@@ -648,7 +656,6 @@ async function copyVerseForSharing() {
   
   const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
   const chName = currentMeta ? currentMeta.name_translation : "Chapter";
-  const chSlug = currentMeta ? currentMeta.chapter_slug : "chapter";
   
   // Format word breakdowns nicely
   let wordBreakdowns = "";
@@ -678,9 +685,6 @@ ${verse.transliteration}
 Translation (Primary):
 "${verse.translation}"
 ${wordBreakdowns}${commentaryText}
-Source Reference & Reading:
-https://vedapath.app/en/bhagavad-gita/${chSlug}/${state.currentVerse}
-
 Shared via Gitā Jñāna 🕉️`;
 
   try {
@@ -726,4 +730,45 @@ function showToast(message) {
       toast.remove();
     }, 350);
   }, 3500);
+}
+
+// Adjust font size scale (direction: +1 to increase, -1 to decrease)
+function adjustFontSize(direction) {
+  const step = 0.1;
+  const minScale = 0.8;
+  const maxScale = 1.6;
+  
+  let newScale = state.fontSizeScale + (direction * step);
+  newScale = Math.max(minScale, Math.min(maxScale, newScale));
+  
+  if (newScale !== state.fontSizeScale) {
+    state.fontSizeScale = newScale;
+    updateFontSize();
+    showToast(`Font size: ${Math.round(state.fontSizeScale * 100)}%`);
+  }
+}
+
+// Update font sizes globally on responsive reading elements
+function updateFontSize() {
+  const scale = state.fontSizeScale;
+  
+  // Sanskrit Shloka and Transliteration
+  if (DOM.sanskritText) {
+    DOM.sanskritText.style.fontSize = `${1.7 * scale}rem`;
+    DOM.sanskritText.style.lineHeight = `${2.2 * scale}rem`;
+  }
+  if (DOM.transliterationText) {
+    DOM.transliterationText.style.fontSize = `${1.0 * scale}rem`;
+    DOM.transliterationText.style.lineHeight = `${1.4 * scale}rem`;
+  }
+  
+  // Translation text cards
+  document.querySelectorAll(".translator-text").forEach(el => {
+    el.style.fontSize = `${0.95 * scale}rem`;
+  });
+  
+  // Commentary Body text
+  if (DOM.commentaryBodyText) {
+    DOM.commentaryBodyText.style.fontSize = `${1.05 * scale}rem`;
+  }
 }
