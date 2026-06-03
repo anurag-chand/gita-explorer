@@ -299,6 +299,34 @@ html, body {
   -webkit-backdrop-filter: var(--glass-blur);
 }
 
+/* Sidebar Decorative Banner */
+.sidebar-decor {
+  padding: 1rem 1.5rem 1.5rem;
+  text-align: center;
+  margin-top: auto;
+  opacity: 0.15;
+  transition: var(--transition-smooth);
+}
+
+.sidebar-decor:hover {
+  opacity: 0.45;
+}
+
+.sidebar-decor-img {
+  max-width: 85%;
+  height: auto;
+  filter: drop-shadow(0 0 8px var(--gold-glow));
+  pointer-events: none;
+}
+
+body.light-theme .sidebar-decor {
+  opacity: 0.1;
+}
+
+body.light-theme .sidebar-decor:hover {
+  opacity: 0.3;
+}
+
 .sidebar-header {
   padding: 1.2rem;
   border-bottom: 1px solid var(--border-color);
@@ -585,14 +613,14 @@ html, body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.06;
+  opacity: 0.18;
   pointer-events: none;
   z-index: 0;
   transition: var(--transition-smooth);
 }
 
 body.light-theme .sanskrit-card::before {
-  opacity: 0.035;
+  opacity: 0.08;
 }
 
 /* Overlay dual manuscript-style border lines */
