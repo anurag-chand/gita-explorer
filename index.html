@@ -4,17 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gitā Jñāna - Premium Bhagavad Gitā Vedāntic Explorer</title>
-  <meta name="description" content="Explore the eternal wisdom of the Bhagavad Gita with Gitā Jñāna. Compare 7 authoritative translations and 16 profound Vedāntic commentaries including Advaita, Vishishtadvaita, and Dvaita philosophies.">
+  <meta name="description" content="Explore the eternal wisdom of the Bhagavad Gita with Gitā Jñāna. Compare translations and profound Vedāntic commentaries representing Advaita, Vishishtadvaita, and Dvaita philosophies.">
   
-  <!-- Favicon placeholder or styling -->
+  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕉️</text></svg>">
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.0.1">
 </head>
 <body class="dark-theme">
-  <!-- Sacred Glow Overlay (decorative) -->
+  <!-- Sacred Glow Overlay (decorative animated gradient) -->
   <div class="sacred-glow-aura" id="sacredAura"></div>
+
+  <!-- Sidebar Overlay for Mobile Menu -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
   <!-- Main Container -->
   <div class="app-container">
@@ -22,18 +25,24 @@
     <!-- Top Sacred Header Bar -->
     <header class="app-header" id="mainHeader">
       <div class="header-branding">
-        <span class="sacred-symbol">🕉️</span>
+        <!-- Hamburger Menu for Mobile Drawer -->
+        <button id="menuToggleBtn" class="menu-toggle-btn" aria-label="Toggle navigation menu">
+          <span class="menu-icon">☰</span>
+        </button>
+        <img src="assets/sacred_lotus_gold.png" alt="Lotus Logo" class="brand-logo">
         <div class="title-group">
-          <h1 class="app-main-title" id="appMainTitle">Gitā Jñāna</h1>
+          <h1 class="app-main-title font-cinzel" id="appMainTitle">Gitā Jñāna</h1>
           <span class="subtitle font-cinzel">गीता ज्ञान • Vedāntic Explorer</span>
         </div>
       </div>
+      
       <div class="header-actions">
-        <!-- Search bar -->
-        <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search shloka, roots, words..." aria-label="Search scripture">
-          <button id="searchButton" type="button" aria-label="Execute search">🔍</button>
-        </div>
+        <!-- Search trigger button -->
+        <button id="searchTriggerBtn" class="search-trigger-btn" aria-label="Open search modal">
+          <span class="search-trigger-icon">🔍</span>
+          <span class="search-trigger-text">Search scripture...</span>
+        </button>
+        
         <!-- Theme Toggle Button -->
         <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle visual theme">
           <span class="theme-icon" id="themeIcon">☀️</span>
@@ -48,6 +57,7 @@
         <!-- Navigation Header -->
         <div class="sidebar-header">
           <h2 class="sidebar-title font-cinzel" id="sidebarNavTitle">Chapters & Verses</h2>
+          <button id="sidebarCloseBtn" class="sidebar-close-btn" aria-label="Close navigation menu">✕</button>
         </div>
         
         <!-- Chapters Dropdown/Selector -->
@@ -88,9 +98,10 @@
 
         <!-- Shloka Display Area -->
         <section class="shloka-section" id="shlokaSection" aria-labelledby="currentCoordinates">
-          <div class="sanskrit-card">
+          <div class="sanskrit-card" id="sanskritCard">
             <h3 class="shloka-heading font-cinzel">Sanskrit Shloka</h3>
             <p class="sanskrit-text font-rozha" id="sanskritText">धृतराष्ट्र उवाच । धर्मक्षेत्रे कुरुक्षेत्रे...</p>
+            <div class="shloka-divider">🕉️</div>
             <p class="transliteration-text font-lora" id="transliterationText">dhṛtarāṣṭra uvāca | dharmakṣetre...</p>
           </div>
         </section>
@@ -186,7 +197,11 @@
   <div id="searchModal" class="search-overlay" aria-hidden="true" role="dialog" aria-labelledby="searchModalTitle">
     <div class="search-modal-card">
       <div class="search-modal-header">
-        <h2 id="searchModalTitle" class="font-cinzel">Search Results</h2>
+        <div class="search-modal-input-wrapper">
+          <span class="search-modal-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="Search 701 verses, roots, translations..." aria-label="Search scripture">
+          <button id="searchButton" type="button" class="search-btn-inside-modal" aria-label="Execute search">Search</button>
+        </div>
         <button id="closeSearchBtn" class="close-modal-btn" aria-label="Close search overlay">✕</button>
       </div>
       <div class="search-results-body" id="searchResultsBody">
@@ -196,6 +211,6 @@
   </div>
 
   <!-- App Logic script -->
-  <script src="app.js"></script>
+  <script src="app.js?v=1.0.1"></script>
 </body>
 </html>

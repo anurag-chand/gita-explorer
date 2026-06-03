@@ -75,7 +75,14 @@ const DOM = {
   searchButton: document.getElementById("searchButton"),
   searchModal: document.getElementById("searchModal"),
   closeSearchBtn: document.getElementById("closeSearchBtn"),
-  searchResultsBody: document.getElementById("searchResultsBody")
+  searchResultsBody: document.getElementById("searchResultsBody"),
+  
+  // Mobile Navigation Drawer & Search Triggers
+  menuToggleBtn: document.getElementById("menuToggleBtn"),
+  sidebarCloseBtn: document.getElementById("sidebarCloseBtn"),
+  sidebarOverlay: document.getElementById("sidebarOverlay"),
+  sidebarSection: document.getElementById("sidebarSection"),
+  searchTriggerBtn: document.getElementById("searchTriggerBtn")
 };
 
 // ==========================================================================
@@ -131,6 +138,48 @@ function setupEventListeners() {
   DOM.searchModal.addEventListener("click", (e) => {
     if (e.target === DOM.searchModal) closeSearchModal();
   });
+  
+  // Search Trigger Button (opens modal and focuses search input)
+  if (DOM.searchTriggerBtn) {
+    DOM.searchTriggerBtn.addEventListener("click", () => {
+      DOM.searchModal.classList.add("active");
+      DOM.searchModal.setAttribute("aria-hidden", "false");
+      setTimeout(() => {
+        if (DOM.searchInput) DOM.searchInput.focus();
+      }, 150);
+    });
+  }
+
+  // Mobile navigation drawer toggle and close listeners
+  if (DOM.menuToggleBtn) {
+    DOM.menuToggleBtn.addEventListener("click", toggleMobileSidebar);
+  }
+  if (DOM.sidebarCloseBtn) {
+    DOM.sidebarCloseBtn.addEventListener("click", closeMobileSidebar);
+  }
+  if (DOM.sidebarOverlay) {
+    DOM.sidebarOverlay.addEventListener("click", closeMobileSidebar);
+  }
+}
+
+// Mobile navigation drawer handlers
+function toggleMobileSidebar() {
+  if (DOM.sidebarSection && DOM.sidebarOverlay) {
+    DOM.sidebarSection.classList.toggle("open");
+    DOM.sidebarOverlay.classList.toggle("active");
+  }
+}
+
+// Make globally accessible if needed
+window.closeMobileSidebar = function() {
+  if (DOM.sidebarSection && DOM.sidebarOverlay) {
+    DOM.sidebarSection.classList.remove("open");
+    DOM.sidebarOverlay.classList.remove("active");
+  }
+};
+
+function closeMobileSidebar() {
+  window.closeMobileSidebar();
 }
 
 // Load Chapter Summaries for Sidebar
@@ -243,6 +292,13 @@ function selectVerse(verseNum) {
   DOM.currentCoordinates.textContent = `${currentMeta ? currentMeta.name_translation : "Chapter"} • Verse ${verseNum}`;
   
   renderVerseDetails();
+  
+  // Auto-close sidebar on mobile screen size after selection
+  if (window.innerWidth <= 960) {
+    if (typeof window.closeMobileSidebar === 'function') {
+      window.closeMobileSidebar();
+    }
+  }
 }
 
 // Render the details of the active verse
