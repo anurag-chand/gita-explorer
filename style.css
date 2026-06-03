@@ -449,36 +449,6 @@ html, body {
   overflow-y: auto;
   padding: 2rem 3rem;
   z-index: 4;
-  position: relative;
-}
-
-.main-content::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('assets/gita_chariot_gold.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.08;
-  pointer-events: none;
-  z-index: 0;
-  transition: var(--transition-smooth);
-}
-
-body.light-theme .main-content::before {
-  opacity: 0.04;
-}
-
-/* Ensure child containers stack above watermark layer */
-.verse-banner,
-.shloka-section,
-.tabs-container {
-  position: relative;
-  z-index: 1;
 }
 
 /* Verse Coordinates Banner */
@@ -589,7 +559,69 @@ body.light-theme .main-content::before {
 
 /* Shloka Visual Section */
 .shloka-section {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
   margin-bottom: 2.5rem;
+}
+
+.sanskrit-card {
+  flex: 1;
+}
+
+.shloka-illustration-card {
+  width: 280px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-smooth);
+}
+
+.shloka-illustration-card::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.12);
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.shloka-illustration-img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px var(--gold-glow));
+  opacity: 0.8;
+  transition: var(--transition-smooth);
+}
+
+.shloka-illustration-card:hover .shloka-illustration-img {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+body.light-theme .shloka-illustration-img {
+  opacity: 0.7;
+}
+
+body.light-theme .shloka-illustration-card:hover .shloka-illustration-img {
+  opacity: 0.95;
 }
 
 .sanskrit-card {
@@ -1311,6 +1343,18 @@ body.light-theme .main-content::before {
   /* Main Content Area adjustments */
   .main-content {
     padding: 1.5rem 1.2rem;
+  }
+  
+  .shloka-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.2rem;
+  }
+  
+  .shloka-illustration-card {
+    width: 100%;
+    height: 180px;
+    padding: 1rem;
   }
   
   .sanskrit-card {
