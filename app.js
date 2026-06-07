@@ -97,9 +97,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   setupEventListeners();
   await loadScriptures();
   await loadChaptersMeta();
-  await loadChapterData(state.currentChapter);
+  const verses = await loadChapterData(state.currentChapter);
   renderVerseGrid();
-  selectVerse(1);
+  const firstVerseNum = verses && verses.length > 0 ? verses[0].metadata.verse_number : 1;
+  selectVerse(firstVerseNum);
 });
 
 // Setup Action Listeners
@@ -284,14 +285,14 @@ async function loadChapterData(chapterNum) {
 async function handleScriptureChange(scriptureId) {
   state.currentScripture = scriptureId;
   state.currentChapter = 1;
-  state.currentVerse = 1;
   state.searchCacheLoaded = false;
   state.globalSearchCache = [];
   
   await loadChaptersMeta();
-  await loadChapterData(state.currentChapter);
+  const verses = await loadChapterData(state.currentChapter);
   renderVerseGrid();
-  selectVerse(1);
+  const firstVerseNum = verses && verses.length > 0 ? verses[0].metadata.verse_number : 1;
+  selectVerse(firstVerseNum);
 }
 
 // Background loading of remaining chapters for active scripture
@@ -346,32 +347,54 @@ function updateChapterSummary() {
 
 // Render verse grid buttons based on current chapter verses count
 function renderVerseGrid() {
-  const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
-  const count = currentMeta ? currentMeta.verses_count : 47;
+  const scCache = state.chapterVersesCache[state.currentScripture];
+  const chapterVerses = scCache ? scCache[state.currentChapter] : null;
+  if (!chapterVerses || chapterVerses.length === 0) {
+    // Fallback if data is not loaded yet (should not happen since we await loadChapterData)
+    const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
+    const count = currentMeta ? currentMeta.verses_count : 47;
+    DOM.verseGrid.innerHTML = "";
+    for (let i = 1; i <= count; i++) {
+      const btn = document.createElement("button");
+      btn.className = "verse-btn";
+      btn.id = `verseBtn_${i}`;
+      btn.textContent = i;
+      btn.setAttribute("aria-label", `Jump to verse ${i}`);
+      btn.addEventListener("click", () => {
+        selectVerse(i);
+      });
+      DOM.verseGrid.appendChild(btn);
+    }
+    return;
+  }
   
   DOM.verseGrid.innerHTML = "";
-  for (let i = 1; i <= count; i++) {
+  chapterVerses.forEach(verse => {
+    const vNum = verse.metadata.verse_number;
     const btn = document.createElement("button");
     btn.className = "verse-btn";
-    btn.id = `verseBtn_${i}`;
-    btn.textContent = i;
-    btn.setAttribute("aria-label", `Jump to verse ${i}`);
+    btn.id = `verseBtn_${vNum}`;
+    btn.textContent = vNum;
+    btn.setAttribute("aria-label", `Jump to verse ${vNum}`);
     
     btn.addEventListener("click", () => {
-      selectVerse(i);
+      selectVerse(vNum);
     });
     
     DOM.verseGrid.appendChild(btn);
-  }
+  });
 }
 
 // Handle switching of chapters
-async function handleChapterChange(chapterNum) {
+async function handleChapterChange(chapterNum, selectFirst = true) {
   state.currentChapter = chapterNum;
-  await loadChapterData(chapterNum);
+  const verses = await loadChapterData(chapterNum);
   updateChapterSummary();
   renderVerseGrid();
-  selectVerse(1);
+  if (selectFirst) {
+    const firstVerseNum = verses && verses.length > 0 ? verses[0].metadata.verse_number : 1;
+    selectVerse(firstVerseNum);
+  }
 }
 
 // Select and load a specific verse
@@ -804,10 +827,14 @@ function renderSearchResults(results, query) {
 async function jumpToVerseCoordinates(scriptureId, chapterNum, verseNum) {
   if (scriptureId && state.currentScripture !== scriptureId) {
     DOM.scriptureSelect.value = scriptureId;
-    await handleScriptureChange(scriptureId);
+    state.currentScripture = scriptureId;
+    state.currentChapter = chapterNum;
+    state.searchCacheLoaded = false;
+    state.globalSearchCache = [];
+    await loadChaptersMeta();
   }
   DOM.chapterSelect.value = chapterNum;
-  await handleChapterChange(chapterNum);
+  await handleChapterChange(chapterNum, false);
   selectVerse(verseNum);
 }
 
@@ -946,18 +973,20 @@ function updateFontSize() {
 
 // Navigate to previous verse (handles cross-chapter navigation)
 async function navigateToPrevVerse() {
-  const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
-  if (!currentMeta) return;
+  const scCache = state.chapterVersesCache[state.currentScripture];
+  const chapterVerses = scCache ? scCache[state.currentChapter] : null;
+  if (!chapterVerses || chapterVerses.length === 0) return;
   
-  if (state.currentVerse > 1) {
-    selectVerse(state.currentVerse - 1);
+  const idx = chapterVerses.findIndex(v => v.metadata.verse_number === state.currentVerse);
+  if (idx > 0) {
+    selectVerse(chapterVerses[idx - 1].metadata.verse_number);
   } else if (state.currentChapter > 1) {
     const prevChNum = state.currentChapter - 1;
-    await handleChapterChange(prevChNum);
-    const prevMeta = state.chaptersMeta.find(c => c.chapter_number === prevChNum);
-    if (prevMeta) {
-      DOM.chapterSelect.value = prevChNum;
-      selectVerse(prevMeta.verses_count);
+    await handleChapterChange(prevChNum, false);
+    DOM.chapterSelect.value = prevChNum;
+    const prevVerses = state.chapterVersesCache[state.currentScripture][prevChNum];
+    if (prevVerses && prevVerses.length > 0) {
+      selectVerse(prevVerses[prevVerses.length - 1].metadata.verse_number);
     }
   } else {
     showToast("🕉️ You are at the first verse of the scripture.");
@@ -966,16 +995,21 @@ async function navigateToPrevVerse() {
 
 // Navigate to next verse (handles cross-chapter navigation)
 async function navigateToNextVerse() {
-  const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
-  if (!currentMeta) return;
+  const scCache = state.chapterVersesCache[state.currentScripture];
+  const chapterVerses = scCache ? scCache[state.currentChapter] : null;
+  if (!chapterVerses || chapterVerses.length === 0) return;
   
-  if (state.currentVerse < currentMeta.verses_count) {
-    selectVerse(state.currentVerse + 1);
+  const idx = chapterVerses.findIndex(v => v.metadata.verse_number === state.currentVerse);
+  if (idx !== -1 && idx < chapterVerses.length - 1) {
+    selectVerse(chapterVerses[idx + 1].metadata.verse_number);
   } else if (state.currentChapter < state.chaptersMeta.length) {
     const nextChNum = state.currentChapter + 1;
-    await handleChapterChange(nextChNum);
+    await handleChapterChange(nextChNum, false);
     DOM.chapterSelect.value = nextChNum;
-    selectVerse(1);
+    const nextVerses = state.chapterVersesCache[state.currentScripture][nextChNum];
+    if (nextVerses && nextVerses.length > 0) {
+      selectVerse(nextVerses[0].metadata.verse_number);
+    }
   } else {
     showToast("🕉️ You are at the last verse of the scripture.");
   }
