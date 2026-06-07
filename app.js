@@ -5,15 +5,17 @@
 
 // Application State
 const state = {
+  currentScripture: "bhagavad-gita",
   currentChapter: 1,
   currentVerse: 1,
+  scriptures: [],
   chaptersMeta: [],
-  chapterVersesCache: {}, // Map of chapter_number -> array of verse objects
-  activeTranslators: new Set(["Swami Sivananda", "Swami Adidevananda", "Swami Gambirananda"]),
+  chapterVersesCache: {}, // Map of scripture_id -> chapter_number -> array of verse objects
+  activeTranslators: new Set(["Swami Sivananda", "Swami Adidevananda", "Swami Gambirananda", "English Translation", "VedaPath English", "Standard English"]),
   activeCommentator: "",
   activeTab: "tabHeaderTranslations",
   theme: "dark",
-  globalSearchCache: [], // Array of all 701 verses for instantaneous search
+  globalSearchCache: [], // Array of loaded verses for active scripture
   searchCacheLoaded: false,
   fontSizeScale: 1.0
 };
@@ -47,6 +49,7 @@ const DOM = {
   body: document.body,
   themeToggleBtn: document.getElementById("themeToggleBtn"),
   themeIcon: document.getElementById("themeIcon"),
+  scriptureSelect: document.getElementById("scriptureSelect"),
   chapterSelect: document.getElementById("chapterSelect"),
   summaryChapterName: document.getElementById("summaryChapterName"),
   summaryChapterText: document.getElementById("summaryChapterText"),
@@ -90,6 +93,7 @@ const DOM = {
 // ==========================================================================
 document.addEventListener("DOMContentLoaded", async () => {
   setupEventListeners();
+  await loadScriptures();
   await loadChaptersMeta();
   await loadChapterData(state.currentChapter);
   renderVerseGrid();
@@ -103,6 +107,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 function setupEventListeners() {
   // Theme toggle
   DOM.themeToggleBtn.addEventListener("click", toggleTheme);
+  
+  // Scripture change
+  if (DOM.scriptureSelect) {
+    DOM.scriptureSelect.addEventListener("change", (e) => {
+      handleScriptureChange(e.target.value);
+    });
+  }
   
   // Chapter change
   DOM.chapterSelect.addEventListener("change", (e) => {
@@ -182,10 +193,43 @@ function closeMobileSidebar() {
   window.closeMobileSidebar();
 }
 
+// Load Scriptures list
+async function loadScriptures() {
+  try {
+    const response = await fetch("./data/scriptures.json");
+    state.scriptures = await response.json();
+    
+    // Group scriptures by category
+    const categories = {};
+    state.scriptures.forEach(sc => {
+      const cat = sc.category || "General";
+      if (!categories[cat]) categories[cat] = [];
+      categories[cat].push(sc);
+    });
+    
+    DOM.scriptureSelect.innerHTML = "";
+    Object.keys(categories).forEach(cat => {
+      const group = document.createElement("optgroup");
+      group.label = cat;
+      categories[cat].forEach(sc => {
+        const option = document.createElement("option");
+        option.value = sc.id;
+        option.textContent = sc.name;
+        group.appendChild(option);
+      });
+      DOM.scriptureSelect.appendChild(group);
+    });
+    
+    DOM.scriptureSelect.value = state.currentScripture;
+  } catch (error) {
+    console.error("Failed to load scriptures index:", error);
+  }
+}
+
 // Load Chapter Summaries for Sidebar
 async function loadChaptersMeta() {
   try {
-    const response = await fetch("./data/chapters_summary.json");
+    const response = await fetch(`./data/${state.currentScripture}/summary.json`);
     state.chaptersMeta = await response.json();
     
     // Populate chapter select dropdown
@@ -193,7 +237,8 @@ async function loadChaptersMeta() {
     state.chaptersMeta.forEach((ch) => {
       const option = document.createElement("option");
       option.value = ch.chapter_number;
-      option.textContent = `Ch ${ch.chapter_number}: ${ch.name_translation}`;
+      const chName = ch.name_translation || ch.name || `Chapter ${ch.chapter_number}`;
+      option.textContent = `Ch ${ch.chapter_number}: ${chName}`;
       DOM.chapterSelect.appendChild(option);
     });
     
@@ -205,35 +250,66 @@ async function loadChaptersMeta() {
 
 // Load full verses for a specific chapter
 async function loadChapterData(chapterNum) {
-  if (state.chapterVersesCache[chapterNum]) {
-    return state.chapterVersesCache[chapterNum];
+  if (!state.chapterVersesCache[state.currentScripture]) {
+    state.chapterVersesCache[state.currentScripture] = {};
+  }
+  
+  if (state.chapterVersesCache[state.currentScripture][chapterNum]) {
+    return state.chapterVersesCache[state.currentScripture][chapterNum];
   }
   
   try {
-    const response = await fetch(`./data/chapters/chapter_${chapterNum}.json`);
+    const response = await fetch(`./data/${state.currentScripture}/chapters/chapter_${chapterNum}.json`);
     const verses = await response.json();
-    state.chapterVersesCache[chapterNum] = verses;
+    state.chapterVersesCache[state.currentScripture][chapterNum] = verses;
     return verses;
   } catch (error) {
-    console.error(`Failed to load verses for Chapter ${chapterNum}:`, error);
+    console.error(`Failed to load verses for Chapter ${chapterNum} of ${state.currentScripture}:`, error);
     return [];
   }
 }
 
-// Background loading of remaining 17 chapters for global clientside search
+// Handle scripture change
+async function handleScriptureChange(scriptureId) {
+  state.currentScripture = scriptureId;
+  state.currentChapter = 1;
+  state.currentVerse = 1;
+  state.searchCacheLoaded = false;
+  state.globalSearchCache = [];
+  
+  await loadChaptersMeta();
+  await loadChapterData(state.currentChapter);
+  renderVerseGrid();
+  selectVerse(1);
+  
+  // Load search cache in background
+  loadGlobalSearchCache();
+}
+
+// Background loading of remaining chapters for active scripture
 async function loadGlobalSearchCache() {
   if (state.searchCacheLoaded) return;
   
-  console.log("Starting background loading of all scripture chapters for global search cache...");
-  const promises = [];
-  for (let i = 1; i <= 18; i++) {
-    promises.push(loadChapterData(i));
-  }
+  const scId = state.currentScripture;
+  console.log(`Starting background loading of all chapters for ${scId}...`);
+  const activeMeta = state.chaptersMeta;
+  if (!activeMeta || activeMeta.length === 0) return;
   
-  const allChapters = await Promise.all(promises);
-  state.globalSearchCache = allChapters.flat();
-  state.searchCacheLoaded = true;
-  console.log(`Global search cache fully ready: Indexed ${state.globalSearchCache.length} verses.`);
+  const promises = [];
+  activeMeta.forEach(ch => {
+    promises.push(loadChapterData(ch.chapter_number));
+  });
+  
+  try {
+    const allChapters = await Promise.all(promises);
+    if (state.currentScripture === scId) {
+      state.globalSearchCache = allChapters.flat();
+      state.searchCacheLoaded = true;
+      console.log(`Search cache for ${scId} fully ready: Indexed ${state.globalSearchCache.length} verses.`);
+    }
+  } catch (err) {
+    console.error(`Failed background loading search cache for ${scId}`, err);
+  }
 }
 
 // ==========================================================================
@@ -244,8 +320,19 @@ async function loadGlobalSearchCache() {
 function updateChapterSummary() {
   const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
   if (currentMeta) {
-    DOM.summaryChapterName.textContent = `${currentMeta.chapter_number}. ${currentMeta.name_translation} (${currentMeta.name_transliterated})`;
-    DOM.summaryChapterText.textContent = currentMeta.chapter_summary;
+    const chName = currentMeta.name_translation || currentMeta.name || `Chapter ${state.currentChapter}`;
+    const chTrans = currentMeta.name_transliterated || "";
+    const nameSanskrit = currentMeta.name_sanskrit || "";
+    
+    if (chTrans) {
+      DOM.summaryChapterName.textContent = `${currentMeta.chapter_number}. ${chName} (${chTrans})`;
+    } else if (nameSanskrit) {
+      DOM.summaryChapterName.textContent = `${currentMeta.chapter_number}. ${chName} (${nameSanskrit})`;
+    } else {
+      DOM.summaryChapterName.textContent = `${currentMeta.chapter_number}. ${chName}`;
+    }
+    
+    DOM.summaryChapterText.textContent = currentMeta.chapter_summary || currentMeta.summary || "No summary available.";
   }
 }
 
@@ -289,7 +376,8 @@ function selectVerse(verseNum) {
   if (activeBtn) activeBtn.classList.add("active");
   
   const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
-  DOM.currentCoordinates.textContent = `${currentMeta ? currentMeta.name_translation : "Chapter"} • Verse ${verseNum}`;
+  const chName = currentMeta ? (currentMeta.name_translation || currentMeta.name) : "Chapter";
+  DOM.currentCoordinates.textContent = `${chName} • Verse ${verseNum}`;
   
   renderVerseDetails();
   
@@ -303,7 +391,8 @@ function selectVerse(verseNum) {
 
 // Render the details of the active verse
 function renderVerseDetails() {
-  const chapterVerses = state.chapterVersesCache[state.currentChapter];
+  const scCache = state.chapterVersesCache[state.currentScripture];
+  const chapterVerses = scCache ? scCache[state.currentChapter] : null;
   if (!chapterVerses) return;
   
   const verse = chapterVerses.find(v => v.metadata.verse_number === state.currentVerse);
@@ -311,7 +400,10 @@ function renderVerseDetails() {
   
   // 1. Sanskrit and Transliteration
   DOM.sanskritText.textContent = verse.sanskrit_shloka;
-  DOM.transliterationText.textContent = verse.transliteration;
+  DOM.transliterationText.textContent = verse.transliteration || "";
+  if (!verse.transliteration) {
+    DOM.transliterationText.textContent = "";
+  }
   updateFontSize();
   
   // 2. Tab: Translations Tab Rendering
@@ -336,6 +428,12 @@ function renderTranslationsTab(verse) {
   // Populate Translator checkboxes if empty
   DOM.translatorCheckboxes.innerHTML = "";
   const allTranslators = verse.translations.map(t => t.author);
+  
+  // Ensure we have at least one active translator that is actually available for this verse
+  const hasActive = allTranslators.some(author => state.activeTranslators.has(author));
+  if (!hasActive && allTranslators.length > 0) {
+    state.activeTranslators.add(allTranslators[0]);
+  }
   
   allTranslators.forEach(author => {
     const label = document.createElement("label");
@@ -498,7 +596,9 @@ function renderCommentariesTab(verse) {
 
 // Render selected commentary details
 function renderSelectedCommentary() {
-  const chapterVerses = state.chapterVersesCache[state.currentChapter];
+  const scCache = state.chapterVersesCache[state.currentScripture];
+  const chapterVerses = scCache ? scCache[state.currentChapter] : null;
+  if (!chapterVerses) return;
   const verse = chapterVerses.find(v => v.metadata.verse_number === state.currentVerse);
   if (!verse || !verse.commentaries) return;
   
@@ -589,9 +689,11 @@ async function performSearch() {
   if (!query) return;
   
   // Show Loading indicator inside Modal
+  const currentMeta = state.scriptures.find(s => s.id === state.currentScripture);
+  const scriptureName = currentMeta ? currentMeta.name : "scripture";
   DOM.searchResultsBody.innerHTML = `
     <div style="text-align:center; padding: 2rem;">
-      <p class="font-cinzel" style="color: var(--saffron);">Searching all 701 verses...</p>
+      <p class="font-cinzel" style="color: var(--saffron);">Searching all verses of ${scriptureName}...</p>
       <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">Indexing coordinates...</div>
     </div>`;
   DOM.searchModal.classList.add("active");
@@ -651,7 +753,7 @@ function renderSearchResults(results, query) {
   if (results.length === 0) {
     DOM.searchResultsBody.innerHTML = `
       <div style="text-align:center; padding: 2rem; color: var(--text-muted);" class="font-lora">
-        No matching verses or grammatical roots found for query "${query}". Try searching "Arjuna", "karma", "bhakti", or "धर्म".
+        No matching verses, translations or commentary text found for query "${query}".
       </div>`;
     return;
   }
@@ -662,7 +764,7 @@ function renderSearchResults(results, query) {
     
     const coords = document.createElement("span");
     coords.className = "search-result-coords font-cinzel";
-    coords.textContent = `Ch ${r.verse.metadata.chapter_number} • Verse ${r.verse.metadata.verse_number} (${r.verse.metadata.chapter_name})`;
+    coords.textContent = `${r.verse.metadata.scripture_name} • Ch ${r.verse.metadata.chapter_number} • Verse ${r.verse.metadata.verse_number} (${r.verse.metadata.chapter_name})`;
     
     const text = document.createElement("p");
     text.className = "search-result-text font-lora";
@@ -673,7 +775,7 @@ function renderSearchResults(results, query) {
     
     item.addEventListener("click", () => {
       closeSearchModal();
-      jumpToVerseCoordinates(r.verse.metadata.chapter_number, r.verse.metadata.verse_number);
+      jumpToVerseCoordinates(r.verse.metadata.scripture_slug, r.verse.metadata.chapter_number, r.verse.metadata.verse_number);
     });
     
     DOM.searchResultsBody.appendChild(item);
@@ -690,8 +792,12 @@ function renderSearchResults(results, query) {
   }
 }
 
-// Jump directly to chapter and verse from search result click
-async function jumpToVerseCoordinates(chapterNum, verseNum) {
+// Jump directly to scripture, chapter and verse from search result click
+async function jumpToVerseCoordinates(scriptureId, chapterNum, verseNum) {
+  if (scriptureId && state.currentScripture !== scriptureId) {
+    DOM.scriptureSelect.value = scriptureId;
+    await handleScriptureChange(scriptureId);
+  }
   DOM.chapterSelect.value = chapterNum;
   await handleChapterChange(chapterNum);
   selectVerse(verseNum);
@@ -704,14 +810,15 @@ function closeSearchModal() {
 
 // Copy current verse details beautifully to clipboard for social sharing
 async function copyVerseForSharing() {
-  const chapterVerses = state.chapterVersesCache[state.currentChapter];
+  const scCache = state.chapterVersesCache[state.currentScripture];
+  const chapterVerses = scCache ? scCache[state.currentChapter] : null;
   if (!chapterVerses) return;
   
   const verse = chapterVerses.find(v => v.metadata.verse_number === state.currentVerse);
   if (!verse) return;
   
   const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
-  const chName = currentMeta ? currentMeta.name_translation : "Chapter";
+  const chName = currentMeta ? (currentMeta.name_translation || currentMeta.name) : "Chapter";
   
   // Format word breakdowns nicely
   let wordBreakdowns = "";

@@ -1,0 +1,29 @@
+[
+  {
+    "chapter_number": 1,
+    "name": "Chapter 1",
+    "name_sanskrit": "",
+    "name_transliterated": "Chapter 1",
+    "verses_count": 4,
+    "summary": "Chapter 1 of Taittiriya Upanishad containing 4 verses.",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 2,
+    "name": "Chapter 2",
+    "name_sanskrit": "",
+    "name_transliterated": "Chapter 2",
+    "verses_count": 6,
+    "summary": "Chapter 2 of Taittiriya Upanishad containing 6 verses.",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 3,
+    "name": "Chapter 3",
+    "name_sanskrit": "",
+    "name_transliterated": "Chapter 3",
+    "verses_count": 7,
+    "summary": "Chapter 3 of Taittiriya Upanishad containing 7 verses.",
+    "summary_hindi": ""
+  }
+]

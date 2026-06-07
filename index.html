@@ -59,9 +59,17 @@
           <button id="sidebarCloseBtn" class="sidebar-close-btn" aria-label="Close navigation menu">✕</button>
         </div>
         
+        <!-- Scripture Dropdown/Selector -->
+        <div class="chapter-selector-container" style="padding-bottom: 0.5rem;">
+          <label for="scriptureSelect" style="display: block; font-family: 'Cinzel', serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--saffron); margin-bottom: 0.4rem;">Select Scripture</label>
+          <select id="scriptureSelect" class="chapter-dropdown" style="font-size: 0.85rem;">
+            <!-- Programmatically populated -->
+          </select>
+        </div>
+
         <!-- Chapters Dropdown/Selector -->
-        <div class="chapter-selector-container">
-          <label for="chapterSelect" class="visually-hidden">Select Chapter</label>
+        <div class="chapter-selector-container" style="padding-top: 0;">
+          <label for="chapterSelect" style="display: block; font-family: 'Cinzel', serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--saffron); margin-bottom: 0.4rem;">Select Chapter/Section</label>
           <select id="chapterSelect" class="chapter-dropdown">
             <!-- Programmatically populated -->
           </select>
@@ -201,7 +209,7 @@
       <div class="search-modal-header">
         <div class="search-modal-input-wrapper">
           <span class="search-modal-icon">🔍</span>
-          <input type="text" id="searchInput" placeholder="Search 701 verses, roots, translations..." aria-label="Search scripture">
+          <input type="text" id="searchInput" placeholder="Search scripture, translations, commentaries..." aria-label="Search scripture">
           <button id="searchButton" type="button" class="search-btn-inside-modal" aria-label="Execute search">Search</button>
         </div>
         <button id="closeSearchBtn" class="close-modal-btn" aria-label="Close search overlay">✕</button>
