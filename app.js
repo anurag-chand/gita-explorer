@@ -55,6 +55,8 @@ const DOM = {
   summaryChapterText: document.getElementById("summaryChapterText"),
   verseGrid: document.getElementById("verseGrid"),
   currentCoordinates: document.getElementById("currentCoordinates"),
+  prevVerseBtn: document.getElementById("prevVerseBtn"),
+  nextVerseBtn: document.getElementById("nextVerseBtn"),
   copyShareBtn: document.getElementById("copyShareBtn"),
   decFontBtn: document.getElementById("decFontBtn"),
   incFontBtn: document.getElementById("incFontBtn"),
@@ -98,9 +100,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadChapterData(state.currentChapter);
   renderVerseGrid();
   selectVerse(1);
-  
-  // Load remaining chapters in the background for global instantaneous search
-  loadGlobalSearchCache();
 });
 
 // Setup Action Listeners
@@ -135,6 +134,14 @@ function setupEventListeners() {
   
   // Copy to Share button click
   DOM.copyShareBtn.addEventListener("click", copyVerseForSharing);
+
+  // Prev / Next verse navigation
+  if (DOM.prevVerseBtn) {
+    DOM.prevVerseBtn.addEventListener("click", navigateToPrevVerse);
+  }
+  if (DOM.nextVerseBtn) {
+    DOM.nextVerseBtn.addEventListener("click", navigateToNextVerse);
+  }
   
   // Font Size adjustment buttons
   DOM.decFontBtn.addEventListener("click", () => adjustFontSize(-1));
@@ -144,6 +151,9 @@ function setupEventListeners() {
   DOM.searchButton.addEventListener("click", performSearch);
   DOM.searchInput.addEventListener("keypress", (e) => {
     if (e.key === "Enter") performSearch();
+  });
+  DOM.searchInput.addEventListener("focus", () => {
+    loadGlobalSearchCache();
   });
   DOM.closeSearchBtn.addEventListener("click", closeSearchModal);
   DOM.searchModal.addEventListener("click", (e) => {
@@ -155,6 +165,7 @@ function setupEventListeners() {
     DOM.searchTriggerBtn.addEventListener("click", () => {
       DOM.searchModal.classList.add("active");
       DOM.searchModal.setAttribute("aria-hidden", "false");
+      loadGlobalSearchCache();
       setTimeout(() => {
         if (DOM.searchInput) DOM.searchInput.focus();
       }, 150);
@@ -281,9 +292,6 @@ async function handleScriptureChange(scriptureId) {
   await loadChapterData(state.currentChapter);
   renderVerseGrid();
   selectVerse(1);
-  
-  // Load search cache in background
-  loadGlobalSearchCache();
 }
 
 // Background loading of remaining chapters for active scripture
@@ -933,5 +941,42 @@ function updateFontSize() {
   // Commentary Body text
   if (DOM.commentaryBodyText) {
     DOM.commentaryBodyText.style.fontSize = `${1.05 * scale}rem`;
+  }
+}
+
+// Navigate to previous verse (handles cross-chapter navigation)
+async function navigateToPrevVerse() {
+  const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
+  if (!currentMeta) return;
+  
+  if (state.currentVerse > 1) {
+    selectVerse(state.currentVerse - 1);
+  } else if (state.currentChapter > 1) {
+    const prevChNum = state.currentChapter - 1;
+    await handleChapterChange(prevChNum);
+    const prevMeta = state.chaptersMeta.find(c => c.chapter_number === prevChNum);
+    if (prevMeta) {
+      DOM.chapterSelect.value = prevChNum;
+      selectVerse(prevMeta.verses_count);
+    }
+  } else {
+    showToast("🕉️ You are at the first verse of the scripture.");
+  }
+}
+
+// Navigate to next verse (handles cross-chapter navigation)
+async function navigateToNextVerse() {
+  const currentMeta = state.chaptersMeta.find(c => c.chapter_number === state.currentChapter);
+  if (!currentMeta) return;
+  
+  if (state.currentVerse < currentMeta.verses_count) {
+    selectVerse(state.currentVerse + 1);
+  } else if (state.currentChapter < state.chaptersMeta.length) {
+    const nextChNum = state.currentChapter + 1;
+    await handleChapterChange(nextChNum);
+    DOM.chapterSelect.value = nextChNum;
+    selectVerse(1);
+  } else {
+    showToast("🕉️ You are at the last verse of the scripture.");
   }
 }
