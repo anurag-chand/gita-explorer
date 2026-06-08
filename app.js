@@ -96,11 +96,37 @@ const DOM = {
 document.addEventListener("DOMContentLoaded", async () => {
   setupEventListeners();
   await loadScriptures();
+  
+  // Parse URL parameters
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramS = urlParams.get("s");
+  const paramC = parseInt(urlParams.get("c"), 10);
+  const paramV = parseInt(urlParams.get("v"), 10);
+  
+  if (paramS && state.scriptures.some(sc => sc.id === paramS)) {
+    state.currentScripture = paramS;
+    DOM.scriptureSelect.value = paramS;
+  }
+  
   await loadChaptersMeta();
-  const verses = await loadChapterData(state.currentChapter);
+  
+  let targetChapter = state.currentChapter;
+  if (!isNaN(paramC) && state.chaptersMeta.some(ch => ch.chapter_number === paramC)) {
+    targetChapter = paramC;
+    state.currentChapter = paramC;
+    DOM.chapterSelect.value = paramC;
+    updateChapterSummary();
+  }
+  
+  const verses = await loadChapterData(targetChapter);
   renderVerseGrid();
-  const firstVerseNum = verses && verses.length > 0 ? verses[0].metadata.verse_number : 1;
-  selectVerse(firstVerseNum);
+  
+  let targetVerse = verses && verses.length > 0 ? verses[0].metadata.verse_number : 1;
+  if (!isNaN(paramV) && verses && verses.some(v => v.metadata.verse_number === paramV)) {
+    targetVerse = paramV;
+  }
+  
+  selectVerse(targetVerse);
 });
 
 // Setup Action Listeners
@@ -397,6 +423,12 @@ async function handleChapterChange(chapterNum, selectFirst = true) {
   }
 }
 
+// Update URL Query parameters with current coordinates
+function updateURLParams() {
+  const newUrl = `${window.location.pathname}?s=${state.currentScripture}&c=${state.currentChapter}&v=${state.currentVerse}`;
+  window.history.replaceState({ path: newUrl }, '', newUrl);
+}
+
 // Select and load a specific verse
 function selectVerse(verseNum) {
   state.currentVerse = verseNum;
@@ -411,6 +443,7 @@ function selectVerse(verseNum) {
   DOM.currentCoordinates.textContent = `${chName} • Verse ${verseNum}`;
   
   renderVerseDetails();
+  updateURLParams();
   
   // Auto-close sidebar on mobile screen size after selection
   if (window.innerWidth <= 960) {
@@ -871,8 +904,11 @@ async function copyVerseForSharing() {
     commentaryText = `\nVedāntic Commentary (${activeComm.author} — ${schoolMap[activeComm.author] || "Vedānta"}):\n${activeComm.text.trim()}\n`;
   }
   
+  const scriptureMeta = state.scriptures.find(s => s.id === state.currentScripture);
+  const scriptureName = scriptureMeta ? scriptureMeta.name : "Scripture";
+  
   // Construct final formatted text
-  const shareText = `🕉️ Bhagavad Gītā — Chapter ${state.currentChapter}: ${chName} • Verse ${state.currentVerse} 🕉️
+  const shareText = `🕉️ ${scriptureName} — Chapter ${state.currentChapter}: ${chName} • Verse ${state.currentVerse} 🕉️
 
 Sanskrit Shloka:
 ${verse.sanskrit_shloka}
@@ -883,6 +919,7 @@ ${verse.transliteration}
 Translation (Primary):
 "${verse.translation}"
 ${wordBreakdowns}${commentaryText}
+Read here: ${window.location.href}
 Shared via Gitā Jñāna 🕉️`;
 
   try {

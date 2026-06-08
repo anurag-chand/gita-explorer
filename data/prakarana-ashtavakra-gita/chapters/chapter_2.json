@@ -1,1202 +1,927 @@
 [
   {
-    "id": "prakarana-ashtavakra-gita_2_51",
+    "id": "prakarana-ashtavakra-gita_2_1",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 51,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 1,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0905\u0915\u0930\u094d\u0924\u0943\u0924\u094d\u0935\u092e\u092d\u094b\u0915\u094d\u0924\u0943\u0924\u094d\u0935\u0902 \u0938\u094d\u0935\u093e\u0924\u094d\u092e\u0928\u094b \u092e\u0928\u094d\u092f\u0924\u0947 \u092f\u0926\u093e \u0964\n\u0924\u0926\u093e \u0915\u094d\u0937\u0940\u0923\u093e \u092d\u0935\u0928\u094d\u0924\u094d\u092f\u0947\u0935 \u0938\u092e\u0938\u094d\u0924\u093e\u0936\u094d\u091a\u093f\u0924\u094d\u0924\u0935\u0943\u0924\u094d\u0924\u092f\u0903 \u0965 \u0967\u096e-\u096b\u0967\u0965",
-    "transliteration": "akart\u1e5btvamabhokt\u1e5btva\u1e43 sv\u0101tmano manyate yad\u0101 .\ntad\u0101 k\u1e63\u012b\u1e47\u0101 bhavantyeva samast\u0101\u015bcittav\u1e5bttaya\u1e25 .. 18-51..",
-    "translation": "When one considers the self to be non-doer and non-enjoyer, then all the modifications of the mind dissolve.",
+    "sanskrit_shloka": "जनक उवाच ॥\nअहो निरञ्जनः शान्तो बोधोऽहं प्रकृतेः परः ।\nएतावन्तमहं कालं मोहेनैव विडम्बितः ॥ २-१॥",
+    "transliteration": "",
+    "translation": "Janaka said: Ah! I am truly the pure, stainless, peaceful Self, knowledge itself, beyond prakriti. For so long I have been deceived by ignorance and delusion.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "When one considers the self to be non-doer and non-enjoyer, then all the modifications of the mind dissolve."
+        "text": "Janaka said: Ah! I am truly the pure, stainless, peaceful Self, knowledge itself, beyond prakriti. For so long I have been deceived by ignorance and delusion."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_52",
+    "id": "prakarana-ashtavakra-gita_2_2",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 52,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 2,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0909\u091a\u094d\u091b\u0943\u0919\u094d\u0916\u0932\u093e\u092a\u094d\u092f\u0915\u0943\u0924\u093f\u0915\u093e \u0938\u094d\u0925\u093f\u0924\u093f\u0930\u094d\u0927\u0940\u0930\u0938\u094d\u092f \u0930\u093e\u091c\u0924\u0947 \u0964\n\u0928 \u0924\u0941 \u0938\u0938\u094d\u092a\u0943\u0939\u091a\u093f\u0924\u094d\u0924\u0938\u094d\u092f \u0936\u093e\u0928\u094d\u0924\u093f\u0930\u094d\u092e\u0942\u0922\u0938\u094d\u092f \u0915\u0943\u0924\u094d\u0930\u093f\u092e\u093e \u0965 \u0967\u096e-\u096b\u0968\u0965",
-    "transliteration": "ucch\u1e5b\u1e45khal\u0101pyak\u1e5btik\u0101 sthitirdh\u012brasya r\u0101jate .\nna tu sasp\u1e5bhacittasya \u015b\u0101ntirm\u016b\u1e0dhasya k\u1e5btrim\u0101 .. 18-52..",
-    "translation": "The unrestrained and effortless state of the wise shines, but the peace of the deluded, filled with desires, is artificial.",
+    "sanskrit_shloka": "यथा प्रकाशयाम्येको देहमेनं तथा जगत् ।\nअतो मम जगत्सर्वमथवा न च किञ्चन ॥ २-२॥",
+    "transliteration": "",
+    "translation": "Just as I alone illumine this body, so do I illumine the whole world. Therefore the entire world is mine; or else, truly, nothing exists at all.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "The unrestrained and effortless state of the wise shines, but the peace of the deluded, filled with desires, is artificial."
+        "text": "Just as I alone illumine this body, so do I illumine the whole world. Therefore the entire world is mine; or else, truly, nothing exists at all."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_53",
+    "id": "prakarana-ashtavakra-gita_2_3",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 53,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 3,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0935\u093f\u0932\u0938\u0928\u094d\u0924\u093f \u092e\u0939\u093e\u092d\u094b\u0917\u0948\u0930\u094d\u0935\u093f\u0936\u0928\u094d\u0924\u093f \u0917\u093f\u0930\u093f\u0917\u0939\u094d\u0935\u0930\u093e\u0928\u094d \u0964\n\u0928\u093f\u0930\u0938\u094d\u0924\u0915\u0932\u094d\u092a\u0928\u093e \u0927\u0940\u0930\u093e \u0905\u092c\u0926\u094d\u0927\u093e \u092e\u0941\u0915\u094d\u0924\u092c\u0941\u0926\u094d\u0927\u092f\u0903 \u0965 \u0967\u096e-\u096b\u0969\u0965",
-    "transliteration": "vilasanti mah\u0101bhogairvi\u015banti girigahvar\u0101n .\nnirastakalpan\u0101 dh\u012br\u0101 abaddh\u0101 muktabuddhaya\u1e25 .. 18-53..",
-    "translation": "The wise, free from imagination, unbound in mind, enjoy great pleasures or enter mountain caves.",
+    "sanskrit_shloka": "स शरीरमहो विश्वं परित्यज्य मयाधुना ।\nकुतश्चित् कौशलाद् एव परमात्मा विलोक्यते ॥ २-३॥",
+    "transliteration": "",
+    "translation": "Ah! Having now relinquished this body and the universe, I behold the Paramatman, the supreme Self, through some wondrous skill of discernment.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "The wise, free from imagination, unbound in mind, enjoy great pleasures or enter mountain caves."
+        "text": "Ah! Having now relinquished this body and the universe, I behold the Paramatman, the supreme Self, through some wondrous skill of discernment."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_54",
+    "id": "prakarana-ashtavakra-gita_2_4",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 54,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 4,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0936\u094d\u0930\u094b\u0924\u094d\u0930\u093f\u092f\u0902 \u0926\u0947\u0935\u0924\u093e\u0902 \u0924\u0940\u0930\u094d\u0925\u092e\u0919\u094d\u0917\u0928\u093e\u0902 \u092d\u0942\u092a\u0924\u093f\u0902 \u092a\u094d\u0930\u093f\u092f\u092e\u094d \u0964\n\u0926\u0943\u0937\u094d\u091f\u094d\u0935\u093e \u0938\u092e\u094d\u092a\u0942\u091c\u094d\u092f \u0927\u0940\u0930\u0938\u094d\u092f \u0928 \u0915\u093e\u092a\u093f \u0939\u0943\u0926\u093f \u0935\u093e\u0938\u0928\u093e \u0965 \u0967\u096e-\u096b\u096a\u0965",
-    "transliteration": "\u015brotriya\u1e43 devat\u0101\u1e43 t\u012brthama\u1e45gan\u0101\u1e43 bh\u016bpati\u1e43 priyam .\nd\u1e5b\u1e63\u1e6dv\u0101 samp\u016bjya dh\u012brasya na k\u0101pi h\u1e5bdi v\u0101san\u0101 .. 18-54..",
-    "translation": "Upon seeing and worshipping a scholar, deity, sacred place, woman, king, or beloved, the wise have no impression or desire left in the heart.",
+    "sanskrit_shloka": "यथा न तोयतो भिन्नास्तरङ्गाः फेनबुद्बुदाः ।\nआत्मनो न तथा भिन्नं विश्वमात्मविनिर्गतम् ॥ २-४॥",
+    "transliteration": "",
+    "translation": "Just as waves, foam, and bubbles are not separate from water, so the universe arising from the Self is not separate from the Self.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Upon seeing and worshipping a scholar, deity, sacred place, woman, king, or beloved, the wise have no impression or desire left in the heart."
+        "text": "Just as waves, foam, and bubbles are not separate from water, so the universe arising from the Self is not separate from the Self."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_55",
+    "id": "prakarana-ashtavakra-gita_2_5",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 55,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 5,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092d\u0943\u0924\u094d\u092f\u0948\u0903 \u092a\u0941\u0924\u094d\u0930\u0948\u0903 \u0915\u0932\u0924\u094d\u0930\u0948\u0936\u094d\u091a \u0926\u094c\u0939\u093f\u0924\u094d\u0930\u0948\u0936\u094d\u091a\u093e\u092a\u093f \u0917\u094b\u0924\u094d\u0930\u091c\u0948\u0903 \u0964\n\u0935\u093f\u0939\u0938\u094d\u092f \u0927\u093f\u0915\u094d\u0915\u0943\u0924\u094b \u092f\u094b\u0917\u0940 \u0928 \u092f\u093e\u0924\u093f \u0935\u093f\u0915\u0943\u0924\u093f\u0902 \u092e\u0928\u093e\u0915\u094d \u0965 \u0967\u096e-\u096b\u096b\u0965",
-    "transliteration": "bh\u1e5btyai\u1e25 putrai\u1e25 kalatrai\u015bca dauhitrai\u015bc\u0101pi gotrajai\u1e25 .\nvihasya dhikk\u1e5bto yog\u012b na y\u0101ti vik\u1e5bti\u1e43 man\u0101k .. 18-55..",
-    "translation": "Even if ridiculed by servants, sons, wives, grandsons, and relatives, the yogi does not undergo even the slightest disturbance.",
+    "sanskrit_shloka": "तन्तुमात्रो भवेद् एव पटो यद्वद् विचारितः ।\nआत्मतन्मात्रमेवेदं तद्वद् विश्वं विचारितम् ॥ २-५॥",
+    "transliteration": "",
+    "translation": "Just as, upon reflection, cloth is nothing but threads, so, upon true inquiry, this universe is nothing but the Self alone.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Even if ridiculed by servants, sons, wives, grandsons, and relatives, the yogi does not undergo even the slightest disturbance."
+        "text": "Just as, upon reflection, cloth is nothing but threads, so, upon true inquiry, this universe is nothing but the Self alone."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_56",
+    "id": "prakarana-ashtavakra-gita_2_6",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 56,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 6,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938\u0928\u094d\u0924\u0941\u0937\u094d\u091f\u094b\u093d\u092a\u093f \u0928 \u0938\u0928\u094d\u0924\u0941\u0937\u094d\u091f\u0903 \u0916\u093f\u0928\u094d\u0928\u094b\u093d\u092a\u093f \u0928 \u091a \u0916\u093f\u0926\u094d\u092f\u0924\u0947 \u0964\n\u0924\u0938\u094d\u092f\u093e\u0936\u094d\u091a\u0930\u094d\u092f\u0926\u0936\u093e\u0902 \u0924\u093e\u0902 \u0924\u093e\u0902 \u0924\u093e\u0926\u0943\u0936\u093e \u090f\u0935 \u091c\u093e\u0928\u0924\u0947 \u0965 \u0967\u096e-\u096b\u096c\u0965",
-    "transliteration": "santu\u1e63\u1e6do'pi na santu\u1e63\u1e6da\u1e25 khinno'pi na ca khidyate .\ntasy\u0101\u015bcaryada\u015b\u0101\u1e43 t\u0101\u1e43 t\u0101\u1e43 t\u0101d\u1e5b\u015b\u0101 eva j\u0101nate .. 18-56..",
-    "translation": "Though content, not content; though sorrowful, not distressed\u2014such wondrous states are known only to those of the same kind.",
+    "sanskrit_shloka": "यथैवेक्षुरसे क्लृप्ता तेन व्याप्तैव शर्करा ।\nतथा विश्वं मयि क्लृप्तं मया व्याप्तं निरन्तरम् ॥ २-६॥",
+    "transliteration": "",
+    "translation": "Just as sugar, formed in sugarcane juice, is wholly pervaded by it, so the universe, fashioned in me, is pervaded by me without interruption.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Though content, not content; though sorrowful, not distressed\u2014such wondrous states are known only to those of the same kind."
+        "text": "Just as sugar, formed in sugarcane juice, is wholly pervaded by it, so the universe, fashioned in me, is pervaded by me without interruption."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_57",
+    "id": "prakarana-ashtavakra-gita_2_7",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 57,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 7,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0915\u0930\u094d\u0924\u0935\u094d\u092f\u0924\u0948\u0935 \u0938\u0902\u0938\u093e\u0930\u094b \u0928 \u0924\u093e\u0902 \u092a\u0936\u094d\u092f\u0928\u094d\u0924\u093f \u0938\u0942\u0930\u092f\u0903 \u0964\n\u0936\u0942\u0928\u094d\u092f\u093e\u0915\u093e\u0930\u093e \u0928\u093f\u0930\u093e\u0915\u093e\u0930\u093e \u0928\u093f\u0930\u094d\u0935\u093f\u0915\u093e\u0930\u093e \u0928\u093f\u0930\u093e\u092e\u092f\u093e\u0903 \u0965 \u0967\u096e-\u096b\u096d\u0965",
-    "transliteration": "kartavyataiva sa\u1e43s\u0101ro na t\u0101\u1e43 pa\u015byanti s\u016braya\u1e25 .\n\u015b\u016bny\u0101k\u0101r\u0101 nir\u0101k\u0101r\u0101 nirvik\u0101r\u0101 nir\u0101may\u0101\u1e25 .. 18-57..",
-    "translation": "The wise do not see worldly existence in the sense of duty, being empty in form, formless, changeless, and free from afflictions.",
+    "sanskrit_shloka": "आत्माज्ञानाज्जगद्भाति आत्मज्ञानान्न भासते ।\nरज्ज्वज्ञानादहिर्भाति तज्ज्ञानाद् भासते न हि ॥ २-७॥",
+    "transliteration": "",
+    "translation": "Through ignorance of the Self the world appears; through knowledge of the Self it no longer appears. Just as a snake appears through ignorance of the rope, and with knowledge of the rope it appears no more.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "The wise do not see worldly existence in the sense of duty, being empty in form, formless, changeless, and free from afflictions."
+        "text": "Through ignorance of the Self the world appears; through knowledge of the Self it no longer appears. Just as a snake appears through ignorance of the rope, and with knowledge of the rope it appears no more."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_58",
+    "id": "prakarana-ashtavakra-gita_2_8",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 58,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 8,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0905\u0915\u0941\u0930\u094d\u0935\u0928\u094d\u0928\u092a\u093f \u0938\u0919\u094d\u0915\u094d\u0937\u094b\u092d\u093e\u0926\u094d \u0935\u094d\u092f\u0917\u094d\u0930\u0903 \u0938\u0930\u094d\u0935\u0924\u094d\u0930 \u092e\u0942\u0922\u0927\u0940\u0903 \u0964\n\u0915\u0941\u0930\u094d\u0935\u0928\u094d\u0928\u092a\u093f \u0924\u0941 \u0915\u0943\u0924\u094d\u092f\u093e\u0928\u093f \u0915\u0941\u0936\u0932\u094b \u0939\u093f \u0928\u093f\u0930\u093e\u0915\u0941\u0932\u0903 \u0965 \u0967\u096e-\u096b\u096e\u0965",
-    "transliteration": "akurvannapi sa\u1e45k\u1e63obh\u0101d vyagra\u1e25 sarvatra m\u016b\u1e0dhadh\u012b\u1e25 .\nkurvannapi tu k\u1e5bty\u0101ni ku\u015balo hi nir\u0101kula\u1e25 .. 18-58..",
-    "translation": "Even while not doing anything, the confused mind remains restless from disturbance, but the skillful remains unperturbed even while performing actions.",
+    "sanskrit_shloka": "प्रकाशो मे निजं रूपं नातिरिक्तोऽस्म्यहं ततः ।\nयदा प्रकाशते विश्वं तदाहं भास एव हि ॥ २-८॥",
+    "transliteration": "",
+    "translation": "Light is my own true form; I am not separate from it. When the universe is illumined, I am indeed that light alone.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Even while not doing anything, the confused mind remains restless from disturbance, but the skillful remains unperturbed even while performing actions."
+        "text": "Light is my own true form; I am not separate from it. When the universe is illumined, I am indeed that light alone."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_59",
+    "id": "prakarana-ashtavakra-gita_2_9",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 59,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 9,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938\u0941\u0916\u092e\u093e\u0938\u094d\u0924\u0947 \u0938\u0941\u0916\u0902 \u0936\u0947\u0924\u0947 \u0938\u0941\u0916\u092e\u093e\u092f\u093e\u0924\u093f \u092f\u093e\u0924\u093f \u091a \u0964\n\u0938\u0941\u0916\u0902 \u0935\u0915\u094d\u0924\u093f \u0938\u0941\u0916\u0902 \u092d\u0941\u0919\u094d\u0915\u094d\u0924\u0947 \u0935\u094d\u092f\u0935\u0939\u093e\u0930\u0947\u093d\u092a\u093f \u0936\u093e\u0928\u094d\u0924\u0927\u0940\u0903 \u0965 \u0967\u096e-\u096b\u096f\u0965",
-    "transliteration": "sukham\u0101ste sukha\u1e43 \u015bete sukham\u0101y\u0101ti y\u0101ti ca .\nsukha\u1e43 vakti sukha\u1e43 bhu\u1e45kte vyavah\u0101re'pi \u015b\u0101ntadh\u012b\u1e25 .. 18-59..",
-    "translation": "Happily, he sits, lies down, comes, goes, speaks, eats; even in worldly activity, the one with a peaceful mind is at ease.",
+    "sanskrit_shloka": "अहो विकल्पितं विश्वमज्ञानान्मयि भासते ।\nरूप्यं शुक्तौ फणी रज्जौ वारि सूर्यकरे यथा ॥ २-९॥",
+    "transliteration": "",
+    "translation": "Ah! Through ignorance the imagined universe appears in me, like silver in mother-of-pearl, a snake in a rope, or water in the sun’s rays.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Happily, he sits, lies down, comes, goes, speaks, eats; even in worldly activity, the one with a peaceful mind is at ease."
+        "text": "Ah! Through ignorance the imagined universe appears in me, like silver in mother-of-pearl, a snake in a rope, or water in the sun’s rays."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_60",
+    "id": "prakarana-ashtavakra-gita_2_10",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 60,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 10,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938\u094d\u0935\u092d\u093e\u0935\u093e\u0926\u094d\u092f\u0938\u094d\u092f \u0928\u0948\u0935\u093e\u0930\u094d\u0924\u093f\u0930\u094d\u0932\u094b\u0915\u0935\u0926\u094d \u0935\u094d\u092f\u0935\u0939\u093e\u0930\u093f\u0923\u0903 \u0964\n\u092e\u0939\u093e\u0939\u094d\u0930\u0926 \u0907\u0935\u093e\u0915\u094d\u0937\u094b\u092d\u094d\u092f\u094b \u0917\u0924\u0915\u094d\u0932\u0947\u0936\u0903 \u0938\u0941\u0936\u094b\u092d\u0924\u0947 \u0965 \u0967\u096e-\u096c\u0966\u0965",
-    "transliteration": "svabh\u0101v\u0101dyasya naiv\u0101rtirlokavad vyavah\u0101ri\u1e47a\u1e25 .\nmah\u0101hrada iv\u0101k\u1e63obhyo gatakle\u015ba\u1e25 su\u015bobhate .. 18-60..",
-    "translation": "By nature, the one who is undisturbed, even while engaging in daily life like others, shines beautifully like a great lake, free from suffering.",
+    "sanskrit_shloka": "मत्तो विनिर्गतं विश्वं मय्येव लयमेष्यति ।\nमृदि कुम्भो जले वीचिः  कनके कटकं यथा ॥ २-१०॥",
+    "transliteration": "",
+    "translation": "From me the universe has arisen, and into me alone it will dissolve, like a pot into clay, a wave into water, and a bracelet into gold.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "By nature, the one who is undisturbed, even while engaging in daily life like others, shines beautifully like a great lake, free from suffering."
+        "text": "From me the universe has arisen, and into me alone it will dissolve, like a pot into clay, a wave into water, and a bracelet into gold."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_61",
+    "id": "prakarana-ashtavakra-gita_2_11",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 61,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 11,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0928\u093f\u0935\u0943\u0924\u094d\u0924\u093f\u0930\u092a\u093f \u092e\u0942\u0922\u0938\u094d\u092f \u092a\u094d\u0930\u0935\u0943\u0924\u094d\u0924\u093f \u0930\u0941\u092a\u091c\u093e\u092f\u0924\u0947 \u0964\n\u092a\u094d\u0930\u0935\u0943\u0924\u094d\u0924\u093f\u0930\u092a\u093f \u0927\u0940\u0930\u0938\u094d\u092f \u0928\u093f\u0935\u0943\u0924\u094d\u0924\u093f\u092b\u0932\u092d\u093e\u0917\u093f\u0928\u0940 \u0965 \u0967\u096e-\u096c\u0967\u0965",
-    "transliteration": "niv\u1e5bttirapi m\u016b\u1e0dhasya prav\u1e5btti rupaj\u0101yate .\nprav\u1e5bttirapi dh\u012brasya niv\u1e5bttiphalabh\u0101gin\u012b .. 18-61..",
-    "translation": "Even the renunciation of the ignorant appears as engagement, while even the engagement of the wise leads to the fruits of renunciation.",
+    "sanskrit_shloka": "अहो अहं नमो मह्यं विनाशो यस्य नास्ति मे ।\nब्रह्मादिस्तम्बपर्यन्तं जगन्नाशोऽपि तिष्ठतः ॥ २-११॥",
+    "transliteration": "",
+    "translation": "Ah! Salutations to myself: for me there is no destruction. Even when the world, from Brahmā down to a blade of grass, is dissolved, I remain.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Even the renunciation of the ignorant appears as engagement, while even the engagement of the wise leads to the fruits of renunciation."
+        "text": "Ah! Salutations to myself: for me there is no destruction. Even when the world, from Brahmā down to a blade of grass, is dissolved, I remain."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_62",
+    "id": "prakarana-ashtavakra-gita_2_12",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 62,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 12,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092a\u0930\u093f\u0917\u094d\u0930\u0939\u0947\u0937\u0941 \u0935\u0948\u0930\u093e\u0917\u094d\u092f\u0902 \u092a\u094d\u0930\u093e\u092f\u094b \u092e\u0942\u0922\u0938\u094d\u092f \u0926\u0943\u0936\u094d\u092f\u0924\u0947 \u0964\n\u0926\u0947\u0939\u0947 \u0935\u093f\u0917\u0932\u093f\u0924\u093e\u0936\u0938\u094d\u092f \u0915\u094d\u0935 \u0930\u093e\u0917\u0903 \u0915\u094d\u0935 \u0935\u093f\u0930\u093e\u0917\u0924\u093e \u0965 \u0967\u096e-\u096c\u0968\u0965",
-    "transliteration": "parigrahe\u1e63u vair\u0101gya\u1e43 pr\u0101yo m\u016b\u1e0dhasya d\u1e5b\u015byate .\ndehe vigalit\u0101\u015basya kva r\u0101ga\u1e25 kva vir\u0101gat\u0101 .. 18-62..",
-    "translation": "Dispassion toward possessions is usually seen in the ignorant, but for one who has transcended desires in the body, where is attachment and where is dispassion?",
+    "sanskrit_shloka": "अहो अहं नमो मह्यमेकोऽहं देहवानपि ।\nक्वचिन्न गन्ता नागन्ता व्याप्य विश्वमवस्थितः ॥ २-१२॥",
+    "transliteration": "",
+    "translation": "Ah! Salutations to myself: I am the One. Though appearing with a body, I neither go anywhere nor come from anywhere; pervading the whole universe, I abide everywhere.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Dispassion toward possessions is usually seen in the ignorant, but for one who has transcended desires in the body, where is attachment and where is dispassion?"
+        "text": "Ah! Salutations to myself: I am the One. Though appearing with a body, I neither go anywhere nor come from anywhere; pervading the whole universe, I abide everywhere."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_63",
+    "id": "prakarana-ashtavakra-gita_2_13",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 63,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 13,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092d\u093e\u0935\u0928\u093e\u092d\u093e\u0935\u0928\u093e\u0938\u0915\u094d\u0924\u093e \u0926\u0943\u0937\u094d\u091f\u093f\u0930\u094d\u092e\u0942\u0922\u0938\u094d\u092f \u0938\u0930\u094d\u0935\u0926\u093e \u0964\n\u092d\u093e\u0935\u094d\u092f\u092d\u093e\u0935\u0928\u092f\u093e \u0938\u093e \u0924\u0941 \u0938\u094d\u0935\u0938\u094d\u0925\u0938\u094d\u092f\u093e\u0926\u0943\u0937\u094d\u091f\u093f\u0930\u0942\u092a\u093f\u0923\u0940 \u0965 \u0967\u096e-\u096c\u0969\u0965",
-    "transliteration": "bh\u0101van\u0101bh\u0101van\u0101sakt\u0101 d\u1e5b\u1e63\u1e6dirm\u016b\u1e0dhasya sarvad\u0101 .\nbh\u0101vyabh\u0101vanay\u0101 s\u0101 tu svasthasy\u0101d\u1e5b\u1e63\u1e6dir\u016bpi\u1e47\u012b .. 18-63..",
-    "translation": "The ignorant are always attached to imagination or non-imagination, but for the wise, real contemplation manifests as a form of non-vision.",
+    "sanskrit_shloka": "अहो अहं नमो मह्यं दक्षो नास्तीह मत्समः ।\nअसंस्पृश्य शरीरेण येन विश्वं चिरं धृतम् ॥ २-१३॥",
+    "transliteration": "",
+    "translation": "Ah! Salutations to myself: none here is as skillful as I. Without touching the body, I have upheld the world for a long time.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "The ignorant are always attached to imagination or non-imagination, but for the wise, real contemplation manifests as a form of non-vision."
+        "text": "Ah! Salutations to myself: none here is as skillful as I. Without touching the body, I have upheld the world for a long time."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_64",
+    "id": "prakarana-ashtavakra-gita_2_14",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 64,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 14,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938\u0930\u094d\u0935\u093e\u0930\u092e\u094d\u092d\u0947\u0937\u0941 \u0928\u093f\u0937\u094d\u0915\u093e\u092e\u094b \u092f\u0936\u094d\u091a\u0930\u0947\u0926\u094d \u092c\u093e\u0932\u0935\u0928\u094d \u092e\u0941\u0928\u093f\u0903 \u0964\n\u0928 \u0932\u0947\u092a\u0938\u094d\u0924\u0938\u094d\u092f \u0936\u0941\u0926\u094d\u0927\u0938\u094d\u092f \u0915\u094d\u0930\u093f\u092f\u092e\u093e\u0923\u0947\u093d\u092a\u093f \u0915\u0930\u094d\u092e\u0923\u093f \u0965 \u0967\u096e-\u096c\u096a\u0965",
-    "transliteration": "sarv\u0101rambhe\u1e63u ni\u1e63k\u0101mo ya\u015bcared b\u0101lavan muni\u1e25 .\nna lepastasya \u015buddhasya kriyam\u0101\u1e47e'pi karma\u1e47i .. 18-64..",
-    "translation": "The sage who acts without desire, like a child, is not tainted by actions, even while engaged in them, due to his pure nature.",
+    "sanskrit_shloka": "अहो अहं नमो मह्यं यस्य मे नास्ति किञ्चन ।\nअथवा यस्य मे सर्वं यद् वाङ्मनसगोचरम् ॥ २-१४॥",
+    "transliteration": "",
+    "translation": "Ah! Salutations to myself: I possess nothing at all; or rather, all that lies within the reach of speech and mind is mine.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "The sage who acts without desire, like a child, is not tainted by actions, even while engaged in them, due to his pure nature."
+        "text": "Ah! Salutations to myself: I possess nothing at all; or rather, all that lies within the reach of speech and mind is mine."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_65",
+    "id": "prakarana-ashtavakra-gita_2_15",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 65,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 15,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938 \u090f\u0935 \u0927\u0928\u094d\u092f \u0906\u0924\u094d\u092e\u091c\u094d\u091e\u0903 \u0938\u0930\u094d\u0935\u092d\u093e\u0935\u0947\u0937\u0941 \u092f\u0903 \u0938\u092e\u0903 \u0964\n\u092a\u0936\u094d\u092f\u0928\u094d \u0936\u200d\u0943\u0923\u094d\u0935\u0928\u094d \u0938\u094d\u092a\u0943\u0936\u0928\u094d \u091c\u093f\u0918\u094d\u0930\u0928\u094d\u0928\u094d \u0905\u0936\u094d\u0928\u0928\u094d\u0928\u093f\u0938\u094d\u0924\u0930\u094d\u0937\u092e\u093e\u0928\u0938\u0903 \u0965 \u0967\u096e-\u096c\u096b\u0965",
-    "transliteration": "sa eva dhanya \u0101tmaj\u00f1a\u1e25 sarvabh\u0101ve\u1e63u ya\u1e25 sama\u1e25 .\npa\u015byan \u015b\u1e5b\u1e47van sp\u1e5b\u015ban jighrann a\u015bnannistar\u1e63am\u0101nasa\u1e25 .. 18-65..",
-    "translation": "He is truly blessed, the knower of the self, who remains equal in all situations, whether seeing, hearing, touching, smelling, or eating, with a mind free from cravings.",
+    "sanskrit_shloka": "ज्ञानं ज्ञेयं तथा ज्ञाता त्रितयं नास्ति वास्तवम् ।\nअज्ञानाद् भाति यत्रेदं सोऽहमस्मि निरञ्जनः ॥ २-१५॥",
+    "transliteration": "",
+    "translation": "The triad of knowledge, the known, and the knower does not truly exist. Through ignorance it appears; yet I am That, the pure and stainless Self.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "He is truly blessed, the knower of the self, who remains equal in all situations, whether seeing, hearing, touching, smelling, or eating, with a mind free from cravings."
+        "text": "The triad of knowledge, the known, and the knower does not truly exist. Through ignorance it appears; yet I am That, the pure and stainless Self."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_66",
+    "id": "prakarana-ashtavakra-gita_2_16",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 66,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 16,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0915\u094d\u0935 \u0938\u0902\u0938\u093e\u0930\u0903 \u0915\u094d\u0935 \u091a\u093e\u092d\u093e\u0938\u0903 \u0915\u094d\u0935 \u0938\u093e\u0927\u094d\u092f\u0902 \u0915\u094d\u0935 \u091a \u0938\u093e\u0927\u0928\u092e\u094d \u0964\n\u0906\u0915\u093e\u0936\u0938\u094d\u092f\u0947\u0935 \u0927\u0940\u0930\u0938\u094d\u092f \u0928\u093f\u0930\u094d\u0935\u093f\u0915\u0932\u094d\u092a\u0938\u094d\u092f \u0938\u0930\u094d\u0935\u0926\u093e \u0965 \u0967\u096e-\u096c\u096c\u0965",
-    "transliteration": "kva sa\u1e43s\u0101ra\u1e25 kva c\u0101bh\u0101sa\u1e25 kva s\u0101dhya\u1e43 kva ca s\u0101dhanam .\n\u0101k\u0101\u015basyeva dh\u012brasya nirvikalpasya sarvad\u0101 .. 18-66..",
-    "translation": "Where is worldly existence, appearance, the goal, or practice, for the wise one, always free from distinctions, like the sky?",
+    "sanskrit_shloka": "द्वैतमूलमहो दुःखं नान्यत्तस्याऽस्ति भेषजम् ।\nदृश्यमेतन् मृषा सर्वमेकोऽहं चिद्रसोमलः ॥ २-१६॥",
+    "transliteration": "",
+    "translation": "Ah! Duality is the root of sorrow, and there is no remedy for it but the realization of oneness. All that is seen is false; I alone am the essence of pure Consciousness.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Where is worldly existence, appearance, the goal, or practice, for the wise one, always free from distinctions, like the sky?"
+        "text": "Ah! Duality is the root of sorrow, and there is no remedy for it but the realization of oneness. All that is seen is false; I alone am the essence of pure Consciousness."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_67",
+    "id": "prakarana-ashtavakra-gita_2_17",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 67,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 17,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938 \u091c\u092f\u0924\u094d\u092f\u0930\u094d\u0925\u0938\u0902\u0928\u094d\u092f\u093e\u0938\u0940 \u092a\u0942\u0930\u094d\u0923\u0938\u094d\u0935\u0930\u0938\u0935\u093f\u0917\u094d\u0930\u0939\u0903 \u0964\n\u0905\u0915\u0943\u0924\u094d\u0930\u093f\u092e\u094b\u093d\u0928\u0935\u091a\u094d\u091b\u093f\u0928\u094d\u0928\u0947 \u0938\u092e\u093e\u0927\u093f\u0930\u094d\u092f\u0938\u094d\u092f \u0935\u0930\u094d\u0924\u0924\u0947 \u0965 \u0967\u096e-\u096c\u096d\u0965",
-    "transliteration": "sa jayatyarthasa\u1e43ny\u0101s\u012b p\u016br\u1e47asvarasavigraha\u1e25 .\nak\u1e5btrimo'navacchinne sam\u0101dhiryasya vartate .. 18-67..",
-    "translation": "Victorious is the one who has renounced all purposes, embodying fullness by nature, whose spontaneous and uninterrupted absorption in the self remains constant.",
+    "sanskrit_shloka": "बोधमात्रोऽहमज्ञानाद् उपाधिः कल्पितो मया ।\nएवं विमृशतो नित्यं निर्विकल्पे स्थितिर्मम ॥ २-१७॥",
+    "transliteration": "",
+    "translation": "I am pure Consciousness alone. Through ignorance I have imagined limiting adjuncts. Reflecting thus continually, I abide in the undivided, non-conceptual state.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "Victorious is the one who has renounced all purposes, embodying fullness by nature, whose spontaneous and uninterrupted absorption in the self remains constant."
+        "text": "I am pure Consciousness alone. Through ignorance I have imagined limiting adjuncts. Reflecting thus continually, I abide in the undivided, non-conceptual state."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_68",
+    "id": "prakarana-ashtavakra-gita_2_18",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 68,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 18,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092c\u0939\u0941\u0928\u093e\u0924\u094d\u0930 \u0915\u093f\u092e\u0941\u0915\u094d\u0924\u0947\u0928 \u091c\u094d\u091e\u093e\u0924\u0924\u0924\u094d\u0924\u094d\u0935\u094b \u092e\u0939\u093e\u0936\u092f\u0903 \u0964\n\u092d\u094b\u0917\u092e\u094b\u0915\u094d\u0937\u0928\u093f\u0930\u093e\u0915\u093e\u0919\u094d\u0915\u094d\u0937\u0940 \u0938\u0926\u093e \u0938\u0930\u094d\u0935\u0924\u094d\u0930 \u0928\u0940\u0930\u0938\u0903 \u0965 \u0967\u096e-\u096c\u096e\u0965",
-    "transliteration": "bahun\u0101tra kimuktena j\u00f1\u0101tatattvo mah\u0101\u015baya\u1e25 .\nbhogamok\u1e63anir\u0101k\u0101\u1e45k\u1e63\u012b sad\u0101 sarvatra n\u012brasa\u1e25 .. 18-68..",
-    "translation": "What more needs to be said? The great soul who knows the truth, always free from desire for enjoyment or liberation, is uninterested in all things.",
+    "sanskrit_shloka": "न मे बन्धोऽस्ति मोक्षो वा भ्रान्तिः शान्ता निराश्रया ।\nअहो मयि स्थितं विश्वं वस्तुतो न मयि स्थितम् ॥ २-१८॥",
+    "transliteration": "",
+    "translation": "For me there is neither bondage nor liberation. Delusion has subsided, having no support. Ah! The world appears to abide in me, yet in truth it does not abide in me.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "What more needs to be said? The great soul who knows the truth, always free from desire for enjoyment or liberation, is uninterested in all things."
+        "text": "For me there is neither bondage nor liberation. Delusion has subsided, having no support. Ah! The world appears to abide in me, yet in truth it does not abide in me."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_69",
+    "id": "prakarana-ashtavakra-gita_2_19",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 69,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 19,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092e\u0939\u0926\u093e\u0926\u093f \u091c\u0917\u0926\u094d\u0926\u094d\u0935\u0948\u0924\u0902 \u0928\u093e\u092e\u092e\u093e\u0924\u094d\u0930\u0935\u093f\u091c\u0943\u092e\u094d\u092d\u093f\u0924\u092e\u094d \u0964\n\u0935\u093f\u0939\u093e\u092f \u0936\u0941\u0926\u094d\u0927\u092c\u094b\u0927\u0938\u094d\u092f \u0915\u093f\u0902 \u0915\u0943\u0924\u094d\u092f\u092e\u0935\u0936\u093f\u0937\u094d\u092f\u0924\u0947 \u0965 \u0967\u096e-\u096c\u096f\u0965",
-    "transliteration": "mahad\u0101di jagaddvaita\u1e43 n\u0101mam\u0101travij\u1e5bmbhitam .\nvih\u0101ya \u015buddhabodhasya ki\u1e43 k\u1e5btyamava\u015bi\u1e63yate .. 18-69..",
-    "translation": "The world of duality, starting from the Great Principle, is merely a manifestation of names. For the pure consciousness, what duty remains after abandoning this?",
+    "sanskrit_shloka": "सशरीरमिदं विश्वं न किञ्चिदिति निश्चितम् ।\nशुद्धचिन्मात्र आत्मा च तत्कस्मिन् कल्पनाधुना ॥ २-१९॥",
+    "transliteration": "",
+    "translation": "It is certain that this universe, together with the body, is nothing at all. The Self is pure Consciousness alone; in what, then, could any imagination now arise?",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "The world of duality, starting from the Great Principle, is merely a manifestation of names. For the pure consciousness, what duty remains after abandoning this?"
+        "text": "It is certain that this universe, together with the body, is nothing at all. The Self is pure Consciousness alone; in what, then, could any imagination now arise?"
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_70",
+    "id": "prakarana-ashtavakra-gita_2_20",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 70,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 20,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092d\u094d\u0930\u092e\u092d\u0942\u0924\u092e\u093f\u0926\u0902 \u0938\u0930\u094d\u0935\u0902 \u0915\u093f\u091e\u094d\u091a\u093f\u0928\u094d\u0928\u093e\u0938\u094d\u0924\u0940\u0924\u093f \u0928\u093f\u0936\u094d\u091a\u092f\u0940 \u0964\n\u0905\u0932\u0915\u094d\u0937\u094d\u092f\u0938\u094d\u092b\u0941\u0930\u0923\u0903 \u0936\u0941\u0926\u094d\u0927\u0903 \u0938\u094d\u0935\u092d\u093e\u0935\u0947\u0928\u0948\u0935 \u0936\u093e\u092e\u094d\u092f\u0924\u093f \u0965 \u0967\u096e-\u096d\u0966\u0965",
-    "transliteration": "bhramabh\u016btamida\u1e43 sarva\u1e43 ki\u00f1cinn\u0101st\u012bti ni\u015bcay\u012b .\nalak\u1e63yasphura\u1e47a\u1e25 \u015buddha\u1e25 svabh\u0101venaiva \u015b\u0101myati .. 18-70..",
-    "translation": "One who is certain that everything in this world is nothing but an illusion and that nothing truly exists, finds that the pure and imperceptible consciousness naturally comes to rest and attains peace.",
+    "sanskrit_shloka": "शरीरं स्वर्गनरकौ बन्धमोक्षौ भयं तथा ।\nकल्पनामात्रमेवैतत् किं मे कार्यं चिदात्मनः ॥ २-२०॥",
+    "transliteration": "",
+    "translation": "The body, heaven and hell, bondage and liberation, and fear as well—this is mere imagination. What concern have they for me, the Self whose nature is Consciousness?",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "One who is certain that everything in this world is nothing but an illusion and that nothing truly exists, finds that the pure and imperceptible consciousness naturally comes to rest and attains peace."
+        "text": "The body, heaven and hell, bondage and liberation, and fear as well—this is mere imagination. What concern have they for me, the Self whose nature is Consciousness?"
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_71",
+    "id": "prakarana-ashtavakra-gita_2_21",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 71,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 21,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0936\u0941\u0926\u094d\u0927\u0938\u094d\u092b\u0941\u0930\u0923\u0930\u0942\u092a\u0938\u094d\u092f \u0926\u0943\u0936\u094d\u092f\u092d\u093e\u0935\u092e\u092a\u0936\u094d\u092f\u0924\u0903 \u0964\n\u0915\u094d\u0935 \u0935\u093f\u0927\u093f\u0903 \u0915\u094d\u0935 \u091a \u0935\u0948\u0930\u093e\u0917\u094d\u092f\u0902 \u0915\u094d\u0935 \u0924\u094d\u092f\u093e\u0917\u0903 \u0915\u094d\u0935 \u0936\u092e\u094b\u093d\u092a\u093f \u0935\u093e \u0965 \u0967\u096e-\u096d\u0967\u0965",
-    "transliteration": "\u015buddhasphura\u1e47ar\u016bpasya d\u1e5b\u015byabh\u0101vamapa\u015byata\u1e25 .\nkva vidhi\u1e25 kva ca vair\u0101gya\u1e43 kva ty\u0101ga\u1e25 kva \u015bamo'pi v\u0101 .. 18-71..",
-    "translation": "For the one who perceives nothing in the pure radiant nature, where is the rule, dispassion, renunciation, or even tranquility?",
+    "sanskrit_shloka": "अहो जनसमूहेऽपि न द्वैतं पश्यतो मम ।\nअरण्यमिव संवृत्तं क्व रतिं करवाण्यहम् ॥ २-२१॥",
+    "transliteration": "",
+    "translation": "Ah, wondrous! Even in a crowd of people, I behold no duality. All has become to me like a silent forest; where, then, shall I seek enjoyment?",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "For the one who perceives nothing in the pure radiant nature, where is the rule, dispassion, renunciation, or even tranquility?"
+        "text": "Ah, wondrous! Even in a crowd of people, I behold no duality. All has become to me like a silent forest; where, then, shall I seek enjoyment?"
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_72",
+    "id": "prakarana-ashtavakra-gita_2_22",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 72,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 22,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0938\u094d\u092b\u0941\u0930\u0924\u094b\u093d\u0928\u0928\u094d\u0924\u0930\u0942\u092a\u0947\u0923 \u092a\u094d\u0930\u0915\u0943\u0924\u093f\u0902 \u091a \u0928 \u092a\u0936\u094d\u092f\u0924\u0903 \u0964\n\u0915\u094d\u0935 \u092c\u0928\u094d\u0927\u0903 \u0915\u094d\u0935 \u091a \u0935\u093e \u092e\u094b\u0915\u094d\u0937\u0903 \u0915\u094d\u0935 \u0939\u0930\u094d\u0937\u0903 \u0915\u094d\u0935 \u0935\u093f\u0937\u093e\u0926\u093f\u0924\u093e \u0965 \u0967\u096e-\u096d\u0968\u0965",
-    "transliteration": "sphurato'nantar\u016bpe\u1e47a prak\u1e5bti\u1e43 ca na pa\u015byata\u1e25 .\nkva bandha\u1e25 kva ca v\u0101 mok\u1e63a\u1e25 kva har\u1e63a\u1e25 kva vi\u1e63\u0101dit\u0101 .. 18-72..",
-    "translation": "For the one who shines in infinite forms and does not see nature, where is bondage, where is liberation, where is joy, and where is sorrow?",
+    "sanskrit_shloka": "नाहं देहो न मे देहो जीवो नाहमहं हि चित् ।\nअयमेव हि मे बन्ध आसीद्या जीविते स्पृहा ॥ २-२२॥",
+    "transliteration": "",
+    "translation": "I am not the body, nor is the body mine. I am not the individual jīva; truly, I am pure Consciousness. This alone was my bondage: the craving for life.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "For the one who shines in infinite forms and does not see nature, where is bondage, where is liberation, where is joy, and where is sorrow?"
+        "text": "I am not the body, nor is the body mine. I am not the individual jīva; truly, I am pure Consciousness. This alone was my bondage: the craving for life."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_73",
+    "id": "prakarana-ashtavakra-gita_2_23",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 73,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 23,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u092c\u0941\u0926\u094d\u0927\u093f\u092a\u0930\u094d\u092f\u0928\u094d\u0924\u0938\u0902\u0938\u093e\u0930\u0947 \u092e\u093e\u092f\u093e\u092e\u093e\u0924\u094d\u0930\u0902 \u0935\u093f\u0935\u0930\u094d\u0924\u0924\u0947 \u0964\n\u0928\u093f\u0930\u094d\u092e\u092e\u094b \u0928\u093f\u0930\u0939\u0919\u094d\u0915\u093e\u0930\u094b \u0928\u093f\u0937\u094d\u0915\u093e\u092e\u0903 \u0936\u094b\u092d\u0924\u0947 \u092c\u0941\u0927\u0903 \u0965 \u0967\u096e-\u096d\u0969\u0965",
-    "transliteration": "buddhiparyantasa\u1e43s\u0101re m\u0101y\u0101m\u0101tra\u1e43 vivartate .\nnirmamo niraha\u1e45k\u0101ro ni\u1e63k\u0101ma\u1e25 \u015bobhate budha\u1e25 .. 18-73..",
-    "translation": "In the worldly existence that extends only to the mind, illusion manifests. The wise one, free from ownership, ego, and desires, shines.",
+    "sanskrit_shloka": "अहो भुवनकल्लोलैर्विचित्रैर्द्राक् समुत्थितम् ।\nमय्यनन्तमहाम्भोधौ चित्तवाते समुद्यते ॥ २-२३॥",
+    "transliteration": "",
+    "translation": "Ah, wondrous! In me, the infinite great ocean, when the wind of the mind arises, the manifold waves of the world swiftly surge forth.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "In the worldly existence that extends only to the mind, illusion manifests. The wise one, free from ownership, ego, and desires, shines."
+        "text": "Ah, wondrous! In me, the infinite great ocean, when the wind of the mind arises, the manifold waves of the world swiftly surge forth."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_74",
+    "id": "prakarana-ashtavakra-gita_2_24",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 74,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 24,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0905\u0915\u094d\u0937\u092f\u0902 \u0917\u0924\u0938\u0928\u094d\u0924\u093e\u092a\u092e\u093e\u0924\u094d\u092e\u093e\u0928\u0902 \u092a\u0936\u094d\u092f\u0924\u094b \u092e\u0941\u0928\u0947\u0903 \u0964\n\u0915\u094d\u0935 \u0935\u093f\u0926\u094d\u092f\u093e \u091a \u0915\u094d\u0935 \u0935\u093e \u0935\u093f\u0936\u094d\u0935\u0902 \u0915\u094d\u0935 \u0926\u0947\u0939\u094b\u093d\u0939\u0902 \u092e\u092e\u0947\u0924\u093f \u0935\u093e \u0965 \u0967\u096e-\u096d\u096a\u0965",
-    "transliteration": "ak\u1e63aya\u1e43 gatasant\u0101pam\u0101tm\u0101na\u1e43 pa\u015byato mune\u1e25 .\nkva vidy\u0101 ca kva v\u0101 vi\u015bva\u1e43 kva deho'ha\u1e43 mameti v\u0101 .. 18-74..",
-    "translation": "For the sage who sees the imperishable self, free from sorrow, where is knowledge, where is the world, where is the body, and where is the sense of \"I\" and \"mine\"?",
+    "sanskrit_shloka": "मय्यनन्तमहाम्भोधौ चित्तवाते प्रशाम्यति ।\nअभाग्याज्जीववणिजो जगत्पोतो विनश्वरः ॥ २-२४॥",
+    "transliteration": "",
+    "translation": "In me, the infinite great ocean, when the wind of the mind subsides, the perishable boat of the world, steered by the merchant of life, the jīva, comes to ruin.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "For the sage who sees the imperishable self, free from sorrow, where is knowledge, where is the world, where is the body, and where is the sense of \"I\" and \"mine\"?"
+        "text": "In me, the infinite great ocean, when the wind of the mind subsides, the perishable boat of the world, steered by the merchant of life, the jīva, comes to ruin."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
+    "commentary_faqs": [
+      {
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
+      {
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
+      {
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
+      }
+    ]
   },
   {
-    "id": "prakarana-ashtavakra-gita_2_75",
+    "id": "prakarana-ashtavakra-gita_2_25",
     "metadata": {
       "scripture_name": "Ashtavakra Gita",
       "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 75,
+      "chapter_slug": "the-joy-of-self-realization",
+      "chapter_name": "The Joy of Self-Realization",
+      "verse_number": 25,
       "chapter_number": 2
     },
-    "sanskrit_shloka": "\u0928\u093f\u0930\u094b\u0927\u093e\u0926\u0940\u0928\u093f \u0915\u0930\u094d\u092e\u093e\u0923\u093f \u091c\u0939\u093e\u0924\u093f \u091c\u0921\u0927\u0940\u0930\u094d\u092f\u0926\u093f \u0964\n\u092e\u0928\u094b\u0930\u0925\u093e\u0928\u094d \u092a\u094d\u0930\u0932\u093e\u092a\u093e\u0902\u0936\u094d\u091a \u0915\u0930\u094d\u0924\u0941\u092e\u093e\u092a\u094d\u0928\u094b\u0924\u094d\u092f\u0924\u0924\u094d\u0915\u094d\u0937\u0923\u093e\u0924\u094d \u0965 \u0967\u096e-\u096d\u096b\u0965",
-    "transliteration": "nirodh\u0101d\u012bni karm\u0101\u1e47i jah\u0101ti ja\u1e0dadh\u012bryadi .\nmanorath\u0101n pral\u0101p\u0101\u1e43\u015bca kartum\u0101pnotyatatk\u1e63a\u1e47\u0101t .. 18-75..",
-    "translation": "If the dull-witted one renounces control and other actions, they immediately fall into desires and delusions.",
+    "sanskrit_shloka": "मय्यनन्तमहाम्भोधावाश्चर्यं जीववीचयः ।\nउद्यन्ति घ्नन्ति खेलन्ति प्रविशन्ति स्वभावतः ॥ २-२५॥",
+    "transliteration": "",
+    "translation": "In me, the infinite great ocean, how wondrous! The waves of life arise, strike, play, and subside into me by their very nature.",
     "word_by_word": [],
     "translations": [
       {
         "author": "English Translation",
         "language": "english",
-        "text": "If the dull-witted one renounces control and other actions, they immediately fall into desires and delusions."
+        "text": "In me, the infinite great ocean, how wondrous! The waves of life arise, strike, play, and subside into me by their very nature."
       }
     ],
     "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_76",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 76,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u092e\u0928\u094d\u0926\u0903 \u0936\u094d\u0930\u0941\u0924\u094d\u0935\u093e\u092a\u093f \u0924\u0926\u094d\u0935\u0938\u094d\u0924\u0941 \u0928 \u091c\u0939\u093e\u0924\u093f \u0935\u093f\u092e\u0942\u0922\u0924\u093e\u092e\u094d \u0964\n\u0928\u093f\u0930\u094d\u0935\u093f\u0915\u0932\u094d\u092a\u094b \u092c\u0939\u093f\u0930\u094d\u092f\u0924\u094d\u0928\u093e\u0926\u0928\u094d\u0924\u0930\u094d\u0935\u093f\u0937\u092f\u0932\u093e\u0932\u0938\u0903 \u0965 \u0967\u096e-\u096d\u096c\u0965",
-    "transliteration": "manda\u1e25 \u015brutv\u0101pi tadvastu na jah\u0101ti vim\u016b\u1e0dhat\u0101m .\nnirvikalpo bahiryatn\u0101dantarvi\u1e63ayal\u0101lasa\u1e25 .. 18-76..",
-    "translation": "Even after hearing of that reality, the ignorant one does not abandon his ignorance. Though outwardly he appears as if without doubt, inwardly he is still full of desires for sense objects.",
-    "word_by_word": [],
-    "translations": [
+    "commentary_faqs": [
       {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Even after hearing of that reality, the ignorant one does not abandon his ignorance. Though outwardly he appears as if without doubt, inwardly he is still full of desires for sense objects."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_77",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 77,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u091c\u094d\u091e\u093e\u0928\u093e\u0926\u094d \u0917\u0932\u093f\u0924\u0915\u0930\u094d\u092e\u093e \u092f\u094b \u0932\u094b\u0915\u0926\u0943\u0937\u094d\u091f\u094d\u092f\u093e\u092a\u093f \u0915\u0930\u094d\u092e\u0915\u0943\u0924\u094d \u0964\n\u0928\u093e\u092a\u094d\u0928\u094b\u0924\u094d\u092f\u0935\u0938\u0930\u0902 \u0915\u0930\u094d\u0924\u0941\u0902 \u0935\u0915\u094d\u0924\u0941\u092e\u0947\u0935 \u0928 \u0915\u093f\u091e\u094d\u091a\u0928 \u0965 \u0967\u096e-\u096d\u096d\u0965",
-    "transliteration": "j\u00f1\u0101n\u0101d galitakarm\u0101 yo lokad\u1e5b\u1e63\u1e6dy\u0101pi karmak\u1e5bt .\nn\u0101pnotyavasara\u1e43 kartu\u1e43 vaktumeva na ki\u00f1cana .. 18-77..",
-    "translation": "One whose actions have fallen away due to knowledge, though appearing to act in the eyes of the world, does not get the opportunity to act or speak anything.",
-    "word_by_word": [],
-    "translations": [
+        "question": "Why does Janaka say 'Salutations to myself' (Namo Mahyam)?",
+        "answer": "This is not an expression of ego, but a recognition of his true nature as the Supreme Brahman. He offers salutations to the infinite Consciousness that remains unchanged even when the universe is destroyed."
+      },
       {
-        "author": "English Translation",
-        "language": "english",
-        "text": "One whose actions have fallen away due to knowledge, though appearing to act in the eyes of the world, does not get the opportunity to act or speak anything."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_78",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 78,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0915\u094d\u0935 \u0924\u092e\u0903 \u0915\u094d\u0935 \u092a\u094d\u0930\u0915\u093e\u0936\u094b \u0935\u093e \u0939\u093e\u0928\u0902 \u0915\u094d\u0935 \u091a \u0928 \u0915\u093f\u091e\u094d\u091a\u0928 \u0964\n\u0928\u093f\u0930\u094d\u0935\u093f\u0915\u093e\u0930\u0938\u094d\u092f \u0927\u0940\u0930\u0938\u094d\u092f \u0928\u093f\u0930\u093e\u0924\u0919\u094d\u0915\u0938\u094d\u092f \u0938\u0930\u094d\u0935\u0926\u093e \u0965 \u0967\u096e-\u096d\u096e\u0965",
-    "transliteration": "kva tama\u1e25 kva prak\u0101\u015bo v\u0101 h\u0101na\u1e43 kva ca na ki\u00f1cana .\nnirvik\u0101rasya dh\u012brasya nir\u0101ta\u1e45kasya sarvad\u0101 .. 18-78..",
-    "translation": "Where is darkness, and where is light? What is there to abandon, and what is there not to abandon? For the wise one who is unchanging and always fearless, there is nothing.",
-    "word_by_word": [],
-    "translations": [
+        "question": "What is the significance of the 'ocean and waves' metaphor in this chapter?",
+        "answer": "It illustrates that the universe and individual beings (waves) are not separate from the Self (the ocean). They arise from, exist in, and dissolve back into the same substance without ever being truly different from it."
+      },
       {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Where is darkness, and where is light? What is there to abandon, and what is there not to abandon? For the wise one who is unchanging and always fearless, there is nothing."
+        "question": "How does Janaka define 'bondage' in Verse 22?",
+        "answer": "Janaka realizes that his true bondage was not external circumstances, but the internal attachment to life and the mistaken identification with the individual soul (Jiva) instead of pure Consciousness."
       }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_79",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 79,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0915\u094d\u0935 \u0927\u0948\u0930\u094d\u092f\u0902 \u0915\u094d\u0935 \u0935\u093f\u0935\u0947\u0915\u093f\u0924\u094d\u0935\u0902 \u0915\u094d\u0935 \u0928\u093f\u0930\u093e\u0924\u0919\u094d\u0915\u0924\u093e\u092a\u093f \u0935\u093e \u0964\n\u0905\u0928\u093f\u0930\u094d\u0935\u093e\u091a\u094d\u092f\u0938\u094d\u0935\u092d\u093e\u0935\u0938\u094d\u092f \u0928\u093f\u0903\u0938\u094d\u0935\u092d\u093e\u0935\u0938\u094d\u092f \u092f\u094b\u0917\u093f\u0928\u0903 \u0965 \u0967\u096e-\u096d\u096f\u0965",
-    "transliteration": "kva dhairya\u1e43 kva vivekitva\u1e43 kva nir\u0101ta\u1e45kat\u0101pi v\u0101 .\nanirv\u0101cyasvabh\u0101vasya ni\u1e25svabh\u0101vasya yogina\u1e25 .. 18-79..",
-    "translation": "Where is courage, where is discernment, and where is fearlessness? For the yogi whose nature is beyond expression and who is devoid of any nature, these have no meaning.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Where is courage, where is discernment, and where is fearlessness? For the yogi whose nature is beyond expression and who is devoid of any nature, these have no meaning."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_80",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 80,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928 \u0938\u094d\u0935\u0930\u094d\u0917\u094b \u0928\u0948\u0935 \u0928\u0930\u0915\u094b \u091c\u0940\u0935\u0928\u094d\u092e\u0941\u0915\u094d\u0924\u093f\u0930\u094d\u0928 \u091a\u0948\u0935 \u0939\u093f \u0964\n\u092c\u0939\u0941\u0928\u093e\u0924\u094d\u0930 \u0915\u093f\u092e\u0941\u0915\u094d\u0924\u0947\u0928 \u092f\u094b\u0917\u0926\u0943\u0937\u094d\u091f\u094d\u092f\u093e \u0928 \u0915\u093f\u091e\u094d\u091a\u0928 \u0965 \u0967\u096e-\u096e\u0966\u0965",
-    "transliteration": "na svargo naiva narako j\u012bvanmuktirna caiva hi .\nbahun\u0101tra kimuktena yogad\u1e5b\u1e63\u1e6dy\u0101 na ki\u00f1cana .. 18-80..",
-    "translation": "There is no heaven, nor hell, nor liberation while alive. What more is there to say? From the viewpoint of yoga, there is nothing.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "There is no heaven, nor hell, nor liberation while alive. What more is there to say? From the viewpoint of yoga, there is nothing."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_81",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 81,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928\u0948\u0935 \u092a\u094d\u0930\u093e\u0930\u094d\u0925\u092f\u0924\u0947 \u0932\u093e\u092d\u0902 \u0928\u093e\u0932\u093e\u092d\u0947\u0928\u093e\u0928\u0941\u0936\u094b\u091a\u0924\u093f \u0964\n\u0927\u0940\u0930\u0938\u094d\u092f \u0936\u0940\u0924\u0932\u0902 \u091a\u093f\u0924\u094d\u0924\u092e\u092e\u0943\u0924\u0947\u0928\u0948\u0935 \u092a\u0942\u0930\u093f\u0924\u092e\u094d \u0965 \u0967\u096e-\u096e\u0967\u0965",
-    "transliteration": "naiva pr\u0101rthayate l\u0101bha\u1e43 n\u0101l\u0101bhen\u0101nu\u015bocati .\ndh\u012brasya \u015b\u012btala\u1e43 cittamam\u1e5btenaiva p\u016britam .. 18-81..",
-    "translation": "The wise one neither desires gain nor grieves at loss. His mind remains cool, filled with nectar-like bliss.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The wise one neither desires gain nor grieves at loss. His mind remains cool, filled with nectar-like bliss."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_82",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 82,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928 \u0936\u093e\u0928\u094d\u0924\u0902 \u0938\u094d\u0924\u094c\u0924\u093f \u0928\u093f\u0937\u094d\u0915\u093e\u092e\u094b \u0928 \u0926\u0941\u0937\u094d\u091f\u092e\u092a\u093f \u0928\u093f\u0928\u094d\u0926\u0924\u093f \u0964\n\u0938\u092e\u0926\u0941\u0903\u0916\u0938\u0941\u0916\u0938\u094d\u0924\u0943\u092a\u094d\u0924\u0903 \u0915\u093f\u091e\u094d\u091a\u093f\u0924\u094d \u0915\u0943\u0924\u094d\u092f\u0902 \u0928 \u092a\u0936\u094d\u092f\u0924\u093f \u0965 \u0967\u096e-\u096e\u0968\u0965",
-    "transliteration": "na \u015b\u0101nta\u1e43 stauti ni\u1e63k\u0101mo na du\u1e63\u1e6damapi nindati .\nsamadu\u1e25khasukhast\u1e5bpta\u1e25 ki\u00f1cit k\u1e5btya\u1e43 na pa\u015byati .. 18-82..",
-    "translation": "The desireless one does not praise the peaceful nor criticize the wicked. Content in both pleasure and pain, he sees nothing to be done.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The desireless one does not praise the peaceful nor criticize the wicked. Content in both pleasure and pain, he sees nothing to be done."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_83",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 83,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0927\u0940\u0930\u094b \u0928 \u0926\u094d\u0935\u0947\u0937\u094d\u091f\u093f \u0938\u0902\u0938\u093e\u0930\u092e\u093e\u0924\u094d\u092e\u093e\u0928\u0902 \u0928 \u0926\u093f\u0926\u0943\u0915\u094d\u0937\u0924\u093f \u0964\n\u0939\u0930\u094d\u0937\u093e\u092e\u0930\u094d\u0937\u0935\u093f\u0928\u093f\u0930\u094d\u092e\u0941\u0915\u094d\u0924\u094b \u0928 \u092e\u0943\u0924\u094b \u0928 \u091a \u091c\u0940\u0935\u0924\u093f \u0965 \u0967\u096e-\u096e\u0969\u0965",
-    "transliteration": "dh\u012bro na dve\u1e63\u1e6di sa\u1e43s\u0101ram\u0101tm\u0101na\u1e43 na did\u1e5bk\u1e63ati .\nhar\u1e63\u0101mar\u1e63avinirmukto na m\u1e5bto na ca j\u012bvati .. 18-83..",
-    "translation": "The wise one neither hates the world nor desires to see the Self. Free from both joy and resentment, he neither lives nor dies.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The wise one neither hates the world nor desires to see the Self. Free from both joy and resentment, he neither lives nor dies."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_84",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 84,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928\u093f\u0903\u0938\u094d\u0928\u0947\u0939\u0903 \u092a\u0941\u0924\u094d\u0930\u0926\u093e\u0930\u093e\u0926\u094c \u0928\u093f\u0937\u094d\u0915\u093e\u092e\u094b \u0935\u093f\u0937\u092f\u0947\u0937\u0941 \u091a \u0964\n\u0928\u093f\u0936\u094d\u091a\u093f\u0928\u094d\u0924\u0903 \u0938\u094d\u0935\u0936\u0930\u0940\u0930\u0947\u093d\u092a\u093f \u0928\u093f\u0930\u093e\u0936\u0903 \u0936\u094b\u092d\u0924\u0947 \u092c\u0941\u0927\u0903 \u0965 \u0967\u096e-\u096e\u096a\u0965",
-    "transliteration": "ni\u1e25sneha\u1e25 putrad\u0101r\u0101dau ni\u1e63k\u0101mo vi\u1e63aye\u1e63u ca .\nni\u015bcinta\u1e25 sva\u015bar\u012bre'pi nir\u0101\u015ba\u1e25 \u015bobhate budha\u1e25 .. 18-84..",
-    "translation": "The wise one, free from attachment to family and possessions, free from desire for sense objects, free from concern for his own body, and without expectations, shines forth brilliantly.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The wise one, free from attachment to family and possessions, free from desire for sense objects, free from concern for his own body, and without expectations, shines forth brilliantly."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_85",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 85,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0924\u0941\u0937\u094d\u091f\u093f\u0903 \u0938\u0930\u094d\u0935\u0924\u094d\u0930 \u0927\u0940\u0930\u0938\u094d\u092f \u092f\u0925\u093e\u092a\u0924\u093f\u0924\u0935\u0930\u094d\u0924\u093f\u0928\u0903 \u0964\n\u0938\u094d\u0935\u091a\u094d\u091b\u0928\u094d\u0926\u0902 \u091a\u0930\u0924\u094b \u0926\u0947\u0936\u093e\u0928\u094d \u092f\u0924\u094d\u0930\u0938\u094d\u0924\u092e\u093f\u0924\u0936\u093e\u092f\u093f\u0928\u0903 \u0965 \u0967\u096e-\u096e\u096b\u0965",
-    "transliteration": "tu\u1e63\u1e6di\u1e25 sarvatra dh\u012brasya yath\u0101patitavartina\u1e25 .\nsvacchanda\u1e43 carato de\u015b\u0101n yatrastamita\u015b\u0101yina\u1e25 .. 18-85..",
-    "translation": "Content everywhere, the wise one wanders freely from place to place, resting wherever the night falls, accepting whatever comes his way.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Content everywhere, the wise one wanders freely from place to place, resting wherever the night falls, accepting whatever comes his way."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_86",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 86,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u092a\u0924\u0924\u0942\u0926\u0947\u0924\u0941 \u0935\u093e \u0926\u0947\u0939\u094b \u0928\u093e\u0938\u094d\u092f \u091a\u093f\u0928\u094d\u0924\u093e \u092e\u0939\u093e\u0924\u094d\u092e\u0928\u0903 \u0964\n\u0938\u094d\u0935\u092d\u093e\u0935\u092d\u0942\u092e\u093f\u0935\u093f\u0936\u094d\u0930\u093e\u0928\u094d\u0924\u093f\u0935\u093f\u0938\u094d\u092e\u0943\u0924\u093e\u0936\u0947\u0937\u0938\u0902\u0938\u0943\u0924\u0947\u0903 \u0965 \u0967\u096e-\u096e\u096c\u0965",
-    "transliteration": "patat\u016bdetu v\u0101 deho n\u0101sya cint\u0101 mah\u0101tmana\u1e25 .\nsvabh\u0101vabh\u016bmivi\u015br\u0101ntivism\u1e5bt\u0101\u015be\u1e63asa\u1e43s\u1e5bte\u1e25 .. 18-86..",
-    "translation": "Let the body fall or rise; the great soul has no concern. Resting in his true nature, he has forgotten the world entirely.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Let the body fall or rise; the great soul has no concern. Resting in his true nature, he has forgotten the world entirely."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_87",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 87,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0905\u0915\u093f\u091e\u094d\u091a\u0928\u0903 \u0915\u093e\u092e\u091a\u093e\u0930\u094b \u0928\u093f\u0930\u094d\u0926\u094d\u0935\u0928\u094d\u0926\u094d\u0935\u0936\u094d\u091b\u093f\u0928\u094d\u0928\u0938\u0902\u0936\u092f\u0903 \u0964\n\u0905\u0938\u0915\u094d\u0924\u0903 \u0938\u0930\u094d\u0935\u092d\u093e\u0935\u0947\u0937\u0941 \u0915\u0947\u0935\u0932\u094b \u0930\u092e\u0924\u0947 \u092c\u0941\u0927\u0903 \u0965 \u0967\u096e-\u096e\u096d\u0965",
-    "transliteration": "aki\u00f1cana\u1e25 k\u0101mac\u0101ro nirdvandva\u015bchinnasa\u1e43\u015baya\u1e25 .\nasakta\u1e25 sarvabh\u0101ve\u1e63u kevalo ramate budha\u1e25 .. 18-87..",
-    "translation": "The wise one, possessing nothing, acting as he pleases, free from dualities and doubts, unattached to anything, enjoys himself alone.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The wise one, possessing nothing, acting as he pleases, free from dualities and doubts, unattached to anything, enjoys himself alone."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_88",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 88,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928\u093f\u0930\u094d\u092e\u092e\u0903 \u0936\u094b\u092d\u0924\u0947 \u0927\u0940\u0930\u0903 \u0938\u092e\u0932\u094b\u0937\u094d\u091f\u093e\u0936\u094d\u092e\u0915\u093e\u091e\u094d\u091a\u0928\u0903 \u0964\n\u0938\u0941\u092d\u093f\u0928\u094d\u0928\u0939\u0943\u0926\u092f\u0917\u094d\u0930\u0928\u094d\u0925\u093f\u0930\u094d\u0935\u093f\u0928\u093f\u0930\u094d\u0927\u0942\u0924\u0930\u091c\u0938\u094d\u0924\u092e\u0903 \u0965 \u0967\u096e-\u096e\u096e\u0965",
-    "transliteration": "nirmama\u1e25 \u015bobhate dh\u012bra\u1e25 samalo\u1e63\u1e6d\u0101\u015bmak\u0101\u00f1cana\u1e25 .\nsubhinnah\u1e5bdayagranthirvinirdh\u016btarajastama\u1e25 .. 18-88..",
-    "translation": "The wise one, who has severed the knots of his heart and shaken off passion and ignorance, shines, treating earth, stone, and gold as the same.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The wise one, who has severed the knots of his heart and shaken off passion and ignorance, shines, treating earth, stone, and gold as the same."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_89",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 89,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0938\u0930\u094d\u0935\u0924\u094d\u0930\u093e\u0928\u0935\u0927\u093e\u0928\u0938\u094d\u092f \u0928 \u0915\u093f\u091e\u094d\u091a\u093f\u0926\u094d \u0935\u093e\u0938\u0928\u093e \u0939\u0943\u0926\u093f \u0964\n\u092e\u0941\u0915\u094d\u0924\u093e\u0924\u094d\u092e\u0928\u094b \u0935\u093f\u0924\u0943\u092a\u094d\u0924\u0938\u094d\u092f \u0924\u0941\u0932\u0928\u093e \u0915\u0947\u0928 \u091c\u093e\u092f\u0924\u0947 \u0965 \u0967\u096e-\u096e\u096f\u0965",
-    "transliteration": "sarvatr\u0101navadh\u0101nasya na ki\u00f1cid v\u0101san\u0101 h\u1e5bdi .\nmukt\u0101tmano vit\u1e5bptasya tulan\u0101 kena j\u0101yate .. 18-89..",
-    "translation": "The liberated and content one, inattentive to all things, with no desires in his heart, is beyond comparison with anyone.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "The liberated and content one, inattentive to all things, with no desires in his heart, is beyond comparison with anyone."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_90",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 90,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u091c\u093e\u0928\u0928\u094d\u0928\u092a\u093f \u0928 \u091c\u093e\u0928\u093e\u0924\u093f \u092a\u0936\u094d\u092f\u0928\u094d\u0928\u092a\u093f \u0928 \u092a\u0936\u094d\u092f\u0924\u093f \u0964\n\u092c\u094d\u0930\u0941\u0935\u0928\u094d\u0928\u094d \u0905\u092a\u093f \u0928 \u091a \u092c\u094d\u0930\u0942\u0924\u0947 \u0915\u094b\u093d\u0928\u094d\u092f\u094b \u0928\u093f\u0930\u094d\u0935\u093e\u0938\u0928\u093e\u0926\u0943\u0924\u0947 \u0965 \u0967\u096e-\u096f\u0966\u0965",
-    "transliteration": "j\u0101nannapi na j\u0101n\u0101ti pa\u015byannapi na pa\u015byati .\nbruvann api na ca br\u016bte ko'nyo nirv\u0101san\u0101d\u1e5bte .. 18-90..",
-    "translation": "Though knowing, he does not know; though seeing, he does not see; though speaking, he does not speak. Who else but one without desires can be like this?",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Though knowing, he does not know; though seeing, he does not see; though speaking, he does not speak. Who else but one without desires can be like this?"
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_91",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 91,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u092d\u093f\u0915\u094d\u0937\u0941\u0930\u094d\u0935\u093e \u092d\u0942\u092a\u0924\u093f\u0930\u094d\u0935\u093e\u092a\u093f \u092f\u094b \u0928\u093f\u0937\u094d\u0915\u093e\u092e\u0903 \u0938 \u0936\u094b\u092d\u0924\u0947 \u0964\n\u092d\u093e\u0935\u0947\u0937\u0941 \u0917\u0932\u093f\u0924\u093e \u092f\u0938\u094d\u092f \u0936\u094b\u092d\u0928\u093e\u0936\u094b\u092d\u0928\u093e \u092e\u0924\u093f\u0903 \u0965 \u0967\u096e-\u096f\u0967\u0965",
-    "transliteration": "bhik\u1e63urv\u0101 bh\u016bpatirv\u0101pi yo ni\u1e63k\u0101ma\u1e25 sa \u015bobhate .\nbh\u0101ve\u1e63u galit\u0101 yasya \u015bobhan\u0101\u015bobhan\u0101 mati\u1e25 .. 18-91..",
-    "translation": "Whether a beggar or a king, one without desires shines if his notions of good and bad have vanished.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Whether a beggar or a king, one without desires shines if his notions of good and bad have vanished."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_92",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 92,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0915\u094d\u0935 \u0938\u094d\u0935\u093e\u091a\u094d\u091b\u0928\u094d\u0926\u094d\u092f\u0902 \u0915\u094d\u0935 \u0938\u0919\u094d\u0915\u094b\u091a\u0903 \u0915\u094d\u0935 \u0935\u093e \u0924\u0924\u094d\u0924\u094d\u0935\u0935\u093f\u0928\u093f\u0936\u094d\u091a\u092f\u0903 \u0964\n\u0928\u093f\u0930\u094d\u0935\u094d\u092f\u093e\u091c\u093e\u0930\u094d\u091c\u0935\u092d\u0942\u0924\u0938\u094d\u092f \u091a\u0930\u093f\u0924\u093e\u0930\u094d\u0925\u0938\u094d\u092f \u092f\u094b\u0917\u093f\u0928\u0903 \u0965 \u0967\u096e-\u096f\u0968\u0965",
-    "transliteration": "kva sv\u0101cchandya\u1e43 kva sa\u1e45koca\u1e25 kva v\u0101 tattvavini\u015bcaya\u1e25 .\nnirvy\u0101j\u0101rjavabh\u016btasya carit\u0101rthasya yogina\u1e25 .. 18-92..",
-    "translation": "For the accomplished yogi who is straightforward and without deceit, where is freedom, where is restriction, and where is certainty of truth?",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "For the accomplished yogi who is straightforward and without deceit, where is freedom, where is restriction, and where is certainty of truth?"
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_93",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 93,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0906\u0924\u094d\u092e\u0935\u093f\u0936\u094d\u0930\u093e\u0928\u094d\u0924\u093f\u0924\u0943\u092a\u094d\u0924\u0947\u0928 \u0928\u093f\u0930\u093e\u0936\u0947\u0928 \u0917\u0924\u093e\u0930\u094d\u0924\u093f\u0928\u093e \u0964\n\u0905\u0928\u094d\u0924\u0930\u094d\u092f\u0926\u0928\u0941\u092d\u0942\u092f\u0947\u0924 \u0924\u0924\u094d \u0915\u0925\u0902 \u0915\u0938\u094d\u092f \u0915\u0925\u094d\u092f\u0924\u0947 \u0965 \u0967\u096e-\u096f\u0969\u0965",
-    "transliteration": "\u0101tmavi\u015br\u0101ntit\u1e5bptena nir\u0101\u015bena gat\u0101rtin\u0101 .\nantaryadanubh\u016byeta tat katha\u1e43 kasya kathyate .. 18-93..",
-    "translation": "What can be experienced within by one who is content in the Self, free from desires and suffering\u2014how can that be explained to anyone?",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "What can be experienced within by one who is content in the Self, free from desires and suffering\u2014how can that be explained to anyone?"
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_94",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 94,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0938\u0941\u092a\u094d\u0924\u094b\u093d\u092a\u093f \u0928 \u0938\u0941\u0937\u0941\u092a\u094d\u0924\u094c \u091a \u0938\u094d\u0935\u092a\u094d\u0928\u0947\u093d\u092a\u093f \u0936\u092f\u093f\u0924\u094b \u0928 \u091a \u0964\n\u091c\u093e\u0917\u0930\u0947\u093d\u092a\u093f \u0928 \u091c\u093e\u0917\u0930\u094d\u0924\u093f \u0927\u0940\u0930\u0938\u094d\u0924\u0943\u092a\u094d\u0924\u0903 \u092a\u0926\u0947 \u092a\u0926\u0947 \u0965 \u0967\u096e-\u096f\u096a\u0965",
-    "transliteration": "supto'pi na su\u1e63uptau ca svapne'pi \u015bayito na ca .\nj\u0101gare'pi na j\u0101garti dh\u012brast\u1e5bpta\u1e25 pade pade .. 18-94..",
-    "translation": "Even when asleep, he is not in deep sleep; even when dreaming, he is not dreaming; even when awake, he is not awake. The wise one is satisfied at every step.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Even when asleep, he is not in deep sleep; even when dreaming, he is not dreaming; even when awake, he is not awake. The wise one is satisfied at every step."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_95",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 95,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u091c\u094d\u091e\u0903 \u0938\u091a\u093f\u0928\u094d\u0924\u094b\u093d\u092a\u093f \u0928\u093f\u0936\u094d\u091a\u093f\u0928\u094d\u0924\u0903 \u0938\u0947\u0928\u094d\u0926\u094d\u0930\u093f\u092f\u094b\u093d\u092a\u093f \u0928\u093f\u0930\u093f\u0928\u094d\u0926\u094d\u0930\u093f\u092f\u0903 \u0964\n\u0938\u0941\u092c\u0941\u0926\u094d\u0927\u093f\u0930\u092a\u093f \u0928\u093f\u0930\u094d\u092c\u0941\u0926\u094d\u0927\u093f\u0903 \u0938\u093e\u0939\u0919\u094d\u0915\u093e\u0930\u094b\u093d\u0928\u0939\u0919\u094d\u0915\u0943\u0924\u093f\u0903 \u0965 \u0967\u096e-\u096f\u096b\u0965",
-    "transliteration": "j\u00f1a\u1e25 sacinto'pi ni\u015bcinta\u1e25 sendriyo'pi nirindriya\u1e25 .\nsubuddhirapi nirbuddhi\u1e25 s\u0101ha\u1e45k\u0101ro'naha\u1e45k\u1e5bti\u1e25 .. 18-95..",
-    "translation": "Though thoughtful, the knower is carefree; though possessing senses, he is without senses. Though wise, he is without intellect; though possessing ego, he is without ego.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Though thoughtful, the knower is carefree; though possessing senses, he is without senses. Though wise, he is without intellect; though possessing ego, he is without ego."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_96",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 96,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928 \u0938\u0941\u0916\u0940 \u0928 \u091a \u0935\u093e \u0926\u0941\u0903\u0916\u0940 \u0928 \u0935\u093f\u0930\u0915\u094d\u0924\u094b \u0928 \u0938\u0919\u094d\u0917\u0935\u093e\u0928\u094d \u0964\n\u0928 \u092e\u0941\u092e\u0941\u0915\u094d\u0937\u0941\u0930\u094d\u0928 \u0935\u093e \u092e\u0941\u0915\u094d\u0924\u093e \u0928 \u0915\u093f\u091e\u094d\u091a\u093f\u0928\u094d\u0928 \u091a \u0915\u093f\u091e\u094d\u091a\u0928 \u0965 \u0967\u096e-\u096f\u096c\u0965",
-    "transliteration": "na sukh\u012b na ca v\u0101 du\u1e25kh\u012b na virakto na sa\u1e45gav\u0101n .\nna mumuk\u1e63urna v\u0101 mukt\u0101 na ki\u00f1cinna ca ki\u00f1cana .. 18-96..",
-    "translation": "He is neither happy nor sad, neither detached nor attached, neither desirous of liberation nor liberated. He is neither something nor nothing.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "He is neither happy nor sad, neither detached nor attached, neither desirous of liberation nor liberated. He is neither something nor nothing."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_97",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 97,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a\u0947\u093d\u092a\u093f \u0928 \u0935\u093f\u0915\u094d\u0937\u093f\u092a\u094d\u0924\u0903 \u0938\u092e\u093e\u0927\u094c \u0928 \u0938\u092e\u093e\u0927\u093f\u092e\u093e\u0928\u094d \u0964\n\u091c\u093e\u0921\u094d\u092f\u0947\u093d\u092a\u093f \u0928 \u091c\u0921\u094b \u0927\u0928\u094d\u092f\u0903 \u092a\u093e\u0923\u094d\u0921\u093f\u0924\u094d\u092f\u0947\u093d\u092a\u093f \u0928 \u092a\u0923\u094d\u0921\u093f\u0924\u0903 \u0965 \u0967\u096e-\u096f\u096d\u0965",
-    "transliteration": "vik\u1e63epe'pi na vik\u1e63ipta\u1e25 sam\u0101dhau na sam\u0101dhim\u0101n .\nj\u0101\u1e0dye'pi na ja\u1e0do dhanya\u1e25 p\u0101\u1e47\u1e0ditye'pi na pa\u1e47\u1e0dita\u1e25 .. 18-97..",
-    "translation": "Even in distraction, he is not distracted; even in meditation, he is not meditating; even in dullness, he is not dull. Blessed is he, for even in learning, he is not a scholar.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Even in distraction, he is not distracted; even in meditation, he is not meditating; even in dullness, he is not dull. Blessed is he, for even in learning, he is not a scholar."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_98",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 98,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u092e\u0941\u0915\u094d\u0924\u094b \u092f\u0925\u093e\u0938\u094d\u0925\u093f\u0924\u093f\u0938\u094d\u0935\u0938\u094d\u0925\u0903 \u0915\u0943\u0924\u0915\u0930\u094d\u0924\u0935\u094d\u092f\u0928\u093f\u0930\u094d\u0935\u0943\u0924\u0903 \u0964\n\u0938\u092e\u0903 \u0938\u0930\u094d\u0935\u0924\u094d\u0930 \u0935\u0948\u0924\u0943\u0937\u094d\u0923\u094d\u092f\u093e\u0928\u094d\u0928 \u0938\u094d\u092e\u0930\u0924\u094d\u092f\u0915\u0943\u0924\u0902 \u0915\u0943\u0924\u092e\u094d \u0965 \u0967\u096e-\u096f\u096e\u0965",
-    "transliteration": "mukto yath\u0101sthitisvastha\u1e25 k\u1e5btakartavyanirv\u1e5bta\u1e25 .\nsama\u1e25 sarvatra vait\u1e5b\u1e63\u1e47y\u0101nna smaratyak\u1e5bta\u1e43 k\u1e5btam .. 18-98..",
-    "translation": "Liberated, self-resting, fulfilled in his duties, he remains equal everywhere due to desirelessness, and he does not remember what is done or not done.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "Liberated, self-resting, fulfilled in his duties, he remains equal everywhere due to desirelessness, and he does not remember what is done or not done."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_99",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 99,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928 \u092a\u094d\u0930\u0940\u092f\u0924\u0947 \u0935\u0928\u094d\u0926\u094d\u092f\u092e\u093e\u0928\u094b \u0928\u093f\u0928\u094d\u0926\u094d\u092f\u092e\u093e\u0928\u094b \u0928 \u0915\u0941\u092a\u094d\u092f\u0924\u093f \u0964\n\u0928\u0948\u0935\u094b\u0926\u094d\u0935\u093f\u091c\u0924\u093f \u092e\u0930\u0923\u0947 \u091c\u0940\u0935\u0928\u0947 \u0928\u093e\u092d\u093f\u0928\u0928\u094d\u0926\u0924\u093f \u0965 \u0967\u096e-\u096f\u096f\u0965",
-    "transliteration": "na pr\u012byate vandyam\u0101no nindyam\u0101no na kupyati .\nnaivodvijati mara\u1e47e j\u012bvane n\u0101bhinandati .. 18-99..",
-    "translation": "He does not feel pleasure when praised or anger when criticized. He is not disturbed by death nor delighted by life. He neither rejoices nor feels anxious.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "He does not feel pleasure when praised or anger when criticized. He is not disturbed by death nor delighted by life. He neither rejoices nor feels anxious."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
-  },
-  {
-    "id": "prakarana-ashtavakra-gita_2_100",
-    "metadata": {
-      "scripture_name": "Ashtavakra Gita",
-      "scripture_slug": "prakarana-ashtavakra-gita",
-      "chapter_slug": "part-2",
-      "chapter_name": "Part 2",
-      "verse_number": 100,
-      "chapter_number": 2
-    },
-    "sanskrit_shloka": "\u0928 \u0927\u093e\u0935\u0924\u093f \u091c\u0928\u093e\u0915\u0940\u0930\u094d\u0923\u0902 \u0928\u093e\u0930\u0923\u094d\u092f\u092e\u0941\u092a\u0936\u093e\u0928\u094d\u0924\u0927\u0940\u0903 \u0964\n\u092f\u0925\u093e\u0924\u0925\u093e \u092f\u0924\u094d\u0930\u0924\u0924\u094d\u0930 \u0938\u092e \u090f\u0935\u093e\u0935\u0924\u093f\u0937\u094d\u0920\u0924\u0947 \u0965 \u0967\u096e-\u0967\u0966\u0966\u0965",
-    "transliteration": "na dh\u0101vati jan\u0101k\u012br\u1e47a\u1e43 n\u0101ra\u1e47yamupa\u015b\u0101ntadh\u012b\u1e25 .\nyath\u0101tath\u0101 yatratatra sama ev\u0101vati\u1e63\u1e6dhate .. 18-100..",
-    "translation": "With a calm mind, he neither rushes into crowds nor retreats into the forest. Wherever and however he is, he remains steady and equanimous.",
-    "word_by_word": [],
-    "translations": [
-      {
-        "author": "English Translation",
-        "language": "english",
-        "text": "With a calm mind, he neither rushes into crowds nor retreats into the forest. Wherever and however he is, he remains steady and equanimous."
-      }
-    ],
-    "commentaries": [],
-    "commentary_faqs": []
+    ]
   }
 ]

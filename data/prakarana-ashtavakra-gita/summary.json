@@ -1,20 +1,182 @@
 [
   {
     "chapter_number": 1,
-    "name": "Part 1 (Verses 1-50)",
+    "name": "Instruction on Self-Realization",
     "name_sanskrit": "",
-    "name_transliterated": "Part 1 (Verses 1-50)",
-    "verses_count": 50,
-    "summary": "Part 1 of Ashtavakra Gita containing verses 1 to 50.",
+    "name_transliterated": "Instruction on Self-Realization",
+    "verses_count": 20,
+    "summary": "Chapter 1: Instruction on Self-Realization",
     "summary_hindi": ""
   },
   {
     "chapter_number": 2,
-    "name": "Part 2 (Verses 51-100)",
+    "name": "The Joy of Self-Realization",
     "name_sanskrit": "",
-    "name_transliterated": "Part 2 (Verses 51-100)",
-    "verses_count": 50,
-    "summary": "Part 2 of Ashtavakra Gita containing verses 51 to 100.",
+    "name_transliterated": "The Joy of Self-Realization",
+    "verses_count": 25,
+    "summary": "Chapter 2: The Joy of Self-Realization",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 3,
+    "name": "The Test of Self-Realization",
+    "name_sanskrit": "",
+    "name_transliterated": "The Test of Self-Realization",
+    "verses_count": 14,
+    "summary": "Chapter 3: The Test of Self-Realization",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 4,
+    "name": "The Glory of Self-Realization",
+    "name_sanskrit": "",
+    "name_transliterated": "The Glory of Self-Realization",
+    "verses_count": 6,
+    "summary": "Chapter 4: The Glory of Self-Realization",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 5,
+    "name": "Dissolution of the Self",
+    "name_sanskrit": "",
+    "name_transliterated": "Dissolution of the Self",
+    "verses_count": 4,
+    "summary": "Chapter 5: Dissolution of the Self",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 6,
+    "name": "The Knowledge of the Self",
+    "name_sanskrit": "",
+    "name_transliterated": "The Knowledge of the Self",
+    "verses_count": 4,
+    "summary": "Chapter 6: The Knowledge of the Self",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 7,
+    "name": "The Infinite Ocean of Consciousness",
+    "name_sanskrit": "",
+    "name_transliterated": "The Infinite Ocean of Consciousness",
+    "verses_count": 5,
+    "summary": "Chapter 7: The Infinite Ocean of Consciousness",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 8,
+    "name": "Bondage and Liberation",
+    "name_sanskrit": "",
+    "name_transliterated": "Bondage and Liberation",
+    "verses_count": 4,
+    "summary": "Chapter 8: Bondage and Liberation",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 9,
+    "name": "Dispassion",
+    "name_sanskrit": "",
+    "name_transliterated": "Dispassion",
+    "verses_count": 8,
+    "summary": "Chapter 9: Dispassion",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 10,
+    "name": "Quietness",
+    "name_sanskrit": "",
+    "name_transliterated": "Quietness",
+    "verses_count": 8,
+    "summary": "Chapter 10: Quietness",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 11,
+    "name": "Wisdom",
+    "name_sanskrit": "",
+    "name_transliterated": "Wisdom",
+    "verses_count": 8,
+    "summary": "Chapter 11: Wisdom",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 12,
+    "name": "Contemplation of the Self",
+    "name_sanskrit": "",
+    "name_transliterated": "Contemplation of the Self",
+    "verses_count": 8,
+    "summary": "Chapter 12: Contemplation of the Self",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 13,
+    "name": "The Bliss of Self-Realization",
+    "name_sanskrit": "",
+    "name_transliterated": "The Bliss of Self-Realization",
+    "verses_count": 7,
+    "summary": "Chapter 13: The Bliss of Self-Realization",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 14,
+    "name": "The Natural State of Realization",
+    "name_sanskrit": "",
+    "name_transliterated": "The Natural State of Realization",
+    "verses_count": 4,
+    "summary": "Chapter 14: The Natural State of Realization",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 15,
+    "name": "Instruction on the Truth",
+    "name_sanskrit": "",
+    "name_transliterated": "Instruction on the Truth",
+    "verses_count": 20,
+    "summary": "Chapter 15: Instruction on the Truth",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 16,
+    "name": "Special Instruction on Self-Knowledge",
+    "name_sanskrit": "",
+    "name_transliterated": "Special Instruction on Self-Knowledge",
+    "verses_count": 11,
+    "summary": "Chapter 16: Special Instruction on Self-Knowledge",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 17,
+    "name": "The True Knower",
+    "name_sanskrit": "",
+    "name_transliterated": "The True Knower",
+    "verses_count": 20,
+    "summary": "Chapter 17: The True Knower",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 18,
+    "name": "Peace",
+    "name_sanskrit": "",
+    "name_transliterated": "Peace",
+    "verses_count": 100,
+    "summary": "Chapter 18: Peace",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 19,
+    "name": "The Repose in the Self",
+    "name_sanskrit": "",
+    "name_transliterated": "The Repose in the Self",
+    "verses_count": 8,
+    "summary": "Chapter 19: The Repose in the Self",
+    "summary_hindi": ""
+  },
+  {
+    "chapter_number": 20,
+    "name": "The State of Absolute Consciousness",
+    "name_sanskrit": "",
+    "name_transliterated": "The State of Absolute Consciousness",
+    "verses_count": 14,
+    "summary": "Chapter 20: The State of Absolute Consciousness",
     "summary_hindi": ""
   }
 ]
