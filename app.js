@@ -444,13 +444,6 @@ function selectVerse(verseNum) {
   
   renderVerseDetails();
   updateURLParams();
-  
-  // Auto-close sidebar on mobile screen size after selection
-  if (window.innerWidth <= 960) {
-    if (typeof window.closeMobileSidebar === 'function') {
-      window.closeMobileSidebar();
-    }
-  }
 }
 
 // Render the details of the active verse
