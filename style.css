@@ -297,6 +297,7 @@ html, body {
   transition: var(--transition-smooth);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
+  overflow: hidden;
 }
 
 /* Sidebar Decorative Banner removed to restore selectors layout */
@@ -392,6 +393,7 @@ html, body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 .verse-grid-title {
@@ -447,8 +449,14 @@ html, body {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  padding: 2rem 3rem;
   z-index: 4;
+}
+
+.main-content-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem 3rem;
 }
 
 /* Verse Coordinates Banner */
@@ -1060,6 +1068,7 @@ body.light-theme .shloka-illustration-card:hover .shloka-illustration-img {
   text-align: center;
   z-index: 10;
   transition: var(--transition-smooth);
+  flex-shrink: 0;
 }
 
 .footer-blurb {
@@ -1342,6 +1351,10 @@ body.light-theme .shloka-illustration-card:hover .shloka-illustration-img {
   
   /* Main Content Area adjustments */
   .main-content {
+    padding: 0;
+  }
+  
+  .main-content-inner {
     padding: 1.5rem 1.2rem;
   }
   
