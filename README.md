@@ -69,4 +69,4 @@ To update your live deployment:
 wrangler pages deploy . --project-name gita-explorer --branch main
 ```
 Your live site is hosted globally at:
-👉 **`https://gita-explorer.pages.dev/`**
+👉 **`https://vedantvani.qzz.io/`**
