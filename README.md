@@ -49,7 +49,7 @@ Copy an entire verse block with a single click. The utility formats the Sanskrit
 
 * **Vapor-Weight Payloads (Chapter-Level Splitting)**: To bypass loading a massive 34MB enriched master database over slower network connections, a Python preprocessing script was built to split the dataset into **18 lightweight chapter files** (approx. 1MB to 4.5MB). This ensures that the application has an instant paint metric of under 50ms upon browser initialization.
 * **Zero Dependency Footprint**: Built purely with **HTML5, Vanilla CSS3, and modern ES6 JavaScript**. Gitā Jñāna requires no compilers, bundlers, npm packages, or active dev servers. It is immune to dependency vulnerabilities and can be run by simply opening `index.html` in a browser.
-* **100% Free Edge-Hosting**: Fully optimized for static hosting platforms. The repository is pre-configured and deployed on **GitHub Pages**, taking advantage of their global content delivery networks (CDNs) for edge caching.
+* **100% Free Edge-Hosting**: Fully optimized for static hosting platforms. The repository is deployed on **Cloudflare Pages**, taking advantage of their global edge networks for sub-50ms latency.
 
 ---
 
@@ -63,12 +63,10 @@ python -m http.server 8000
 ```
 Then visit **`http://localhost:8000`** in your browser.
 
-### Pushing Updates to GitHub Pages
+### Pushing Updates to Cloudflare Pages
 To update your live deployment:
 ```bash
-git add .
-git commit -m "Enhance website layout and legibility features"
-git push
+wrangler pages deploy . --project-name gita-explorer --branch main
 ```
 Your live site is hosted globally at:
-👉 **`https://anurag-chand.github.io/gita-explorer/`**
+👉 **`https://gita-explorer.pages.dev/`**
